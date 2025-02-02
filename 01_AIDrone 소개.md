@@ -1,7 +1,7 @@
 
 # AI 드론 
 
-<img src="https://github.com/user-attachments/assets/b0a4e381-43ac-41de-b836-9239d0c14501" width="300">
+<img src="https://github.com/user-attachments/assets/b0a4e381-43ac-41de-b836-9239d0c14501" width="400">
 
 
 ## 1. 제품 개요  
