@@ -20,10 +20,6 @@
 
 <br/>
 
-![스크린샷 2024-06-06 160739](https://github.com/irbrain/AIDrone/assets/122161666/34f3a266-a8f9-4d05-a1c0-3c884c2a455f)
-
-<br/>
-
 ![스크린샷 2024-06-06 160939](https://github.com/irbrain/AIDrone/assets/122161666/cff80b9a-cbcd-47d7-acd6-7044d522db76)
 
 <br/><br/>
