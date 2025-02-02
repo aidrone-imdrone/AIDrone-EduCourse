@@ -1,10 +1,11 @@
-# AIDrone Assembly
+# AIDrone Drone Introduction
 
-### 1. Insert Motors with Propeller in Drone Body 
+### 1. AIDrone and Transmitter 
 
 <br/>
 
-![화면 캡처 2024-06-06 153915](https://github.com/irbrain/AIDrone/assets/122161666/0b12acce-e264-49c1-9323-b3e1c81d0a19)
+![AI Drone and Controller_600](https://github.com/user-attachments/assets/f0967fba-d21e-40c0-bdc3-7057f247319e)
+
 
 <br/><br/>
 
