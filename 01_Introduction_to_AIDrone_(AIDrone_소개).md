@@ -1,60 +1,77 @@
-# AIDrone Drone Introduction
 
-### 1. AIDrone and Transmitter 
+# Product Manual for AI Drone
 
-<br/>
+## 1. Product Introduction
+- **Purpose:** Provide an overview and highlight the key features of the product.
+- **Content:**
+  - Product name and brief description
+  - Key features: Raspberry Pi Zero 2W, FC, camera, sensor configuration
+  - Primary use cases and objectives (e.g., educational, hands-on learning)
 
-![image](https://github.com/user-attachments/assets/6ed83af6-f620-4ad9-8f4d-4c265dac6821)
+## 2. Product Components and Specifications
+- **Purpose:** Describe the hardware components of the drone in detail.
+- **Content:**
+  - List of main components: Raspberry Pi Zero 2W, camera, FC, motors, propellers, battery, etc.
+  - Detailed specifications of each component (e.g., ICM-20602 sensor, SPL06, PMW3901, VL53L0X)
+  - Battery details and runtime
 
+## 3. Assembly Guide
+- **Purpose:** Provide step-by-step instructions for assembling the product.
+- **Content:**
+  - Assembly sequence for the components (with images or diagrams)
+  - Connection between Raspberry Pi and FC
+  - Installing motors and propellers
+  - Battery connection
+  - Safety precautions
 
+## 4. Software Installation and Configuration
+- **Purpose:** Guide users through the installation and setup of the Raspberry Pi and drone control software.
+- **Content:**
+  - Installing and configuring Raspberry Pi OS
+  - Setting up the drone control software (e.g., Python-based code, ROS 2 compatibility)
+  - Installing necessary libraries and drivers
+  - Initializing sensors and camera
 
-<br/><br/>
+## 5. Basic Operation
+- **Purpose:** Teach users how to operate the drone at a basic level.
+- **Content:**
+  - Connecting the controller to the drone
+  - Basic flight control instructions
+  - Initial test flight procedures
+  - Troubleshooting common issues
 
-### 2. Connect Motors with FC Board 
+## 6. Sensor Integration and Data Usage
+- **Purpose:** Explain how to use and interpret sensor data from the drone.
+- **Content:**
+  - Roles and usage of sensors like ICM-20602, SPL06, PMW3901, and VL53L0X
+  - Example code for simple data processing (in Python)
+  - Visualizing sensor data
 
-<br/>
+## 7. Advanced Features and Programming
+- **Purpose:** Enable advanced users to program and expand the capabilities of the drone.
+- **Content:**
+  - Computer vision examples using OpenCV
+  - Configuring autonomous flight features
+  - YOLO-based object detection and tracking examples
 
-![스크린샷 2024-06-06 162613](https://github.com/irbrain/AIDrone/assets/122161666/e0f1e18f-a964-4cb2-bf82-505a2ec6d3e3)
+## 8. Maintenance and Troubleshooting
+- **Purpose:** Help users maintain and troubleshoot the drone.
+- **Content:**
+  - Battery management and charging
+  - Checking propellers and motors
+  - Common problems and their solutions (e.g., connection issues, sensor errors)
 
-<br/>
+## 9. Project Examples
+- **Purpose:** Provide users with example projects they can execute with the drone.
+- **Content:**
+  - Simple flight missions
+  - Creating an obstacle avoidance program using Python
+  - YOLO-based object detection and tracking project
 
-### 3. At First,  Put Battery Connector on the Bottom and Put in the Board
-
-<br/>
-
-![스크린샷 2024-06-06 160939](https://github.com/irbrain/AIDrone/assets/122161666/cff80b9a-cbcd-47d7-acd6-7044d522db76)
-
-<br/><br/>
-
-### 4. Next Put the Raspberry Pi Zero 2 W with Camera on the FC borad
-
-<br/>
-
-![스크린샷 2024-06-06 161104](https://github.com/irbrain/AIDrone/assets/122161666/9fc3047a-3c22-4aa0-9f4c-09ad92976dd3)
-
-<br/><br/>
-
-### 5. Cover Top Body with Battery
-
-<br/>
-
-![스크린샷 2024-06-06 162340](https://github.com/irbrain/AIDrone/assets/122161666/3b6a7763-8778-4e0d-9e11-5b911d69860d)
-
-<br/> 
-
-![스크린샷 2024-06-06 162202](https://github.com/irbrain/AIDrone/assets/122161666/1aa4401d-37b5-4a20-a894-8ec949b2b144)
-
-<br/>
-
-![image](https://github.com/user-attachments/assets/573b88a6-1286-4bd9-8643-2f95d6eabd56)
-
- 
-
-
-
-
-
-
-
-
-
+## 10. Appendix
+- **Purpose:** Provide additional resources for users.
+- **Content:**
+  - Hardware and software reference links
+  - Component specification sheets
+  - Source code GitHub link
+  - Frequently Asked Questions (FAQ)
