@@ -4,7 +4,8 @@
 
 <br/>
 
-![AI Drone and Controller_600](https://github.com/user-attachments/assets/f0967fba-d21e-40c0-bdc3-7057f247319e)
+![image](https://github.com/user-attachments/assets/6ed83af6-f620-4ad9-8f4d-4c265dac6821)
+
 
 
 <br/><br/>
