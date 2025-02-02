@@ -3,26 +3,26 @@
 <br/>
 
 ## Basic Course
-#### 01. 드론 소개 (Introduction to Drones)
-#### 02. 조종기 사용법  (How to Use the Remote Controller)
-#### 03. 어플로 코딩 비행 (Coding Flight with the Mobile App)
-#### 04. 스크래치를 이용한 코딩 비행 (Coding Flight with Scratch)
+#### 01. Introduction to Drones (드론 소개)
+#### 02. How to Use the Remote Controller (조종기 사용법)
+#### 03. Coding Flight with the Mobile App (어플로 코딩 비행)
+#### 04. Coding Flight with Scratch (스크래치를 이용한 코딩 비행 )
 
 <br/>
 
 ## Middle Course
-#### 05. 파이썬 기초 (Python Basics)
-#### 06. 파이썬 드론 제어 (Drone Control with Python)
-#### 07. 센서 데이터 처리 및 활용 (Sensor Data Processing and Applications)
-#### 08. OpenCV 컴퓨터 비젼 프로그래밍 (Computer Vision Programming Using OpenCV)
+#### 05. Python Basics (파이썬 기초)
+#### 06. Drone Control with Python (파이썬 드론 제어)
+#### 07. Sensor Data Processing and Applications (센서 데이터 처리 및 활용)
+#### 08. Computer Vision Programming Using OpenCV ( OpenCV 컴퓨터 비젼 프로그래밍)
 
 <br/>
 
 ## Advanced Course
-#### 09. 라즈베리파이 환경 설정 (Raspberry Pi Environment Setup)
-#### 10. 라즈베리파이 사용법 (Raspberry Pi Usage and Applications)
-#### 11. 딥러닝 기초 교육 (Introduction to Deep Learning)
-#### 12. 딥러닝 기반 드론 제어 (Deep Learning-based Drone Control)
-#### 13. YOLO 기반 프로젝트 (YOLO-based Object Detection Project)
+#### 09. Raspberry Pi Environment Setup (라즈베리파이 환경 설정)
+#### 10. Raspberry Pi Usage and Applications (라즈베리파이 사용법)
+#### 11. Introduction to Deep Learning (딥러닝 기초 교육)
+#### 12. Deep Learning-based Drone Control (딥러닝 기반 드론 제어)
+#### 13. YOLO-based Object Detection Project (YOLO 기반 프로젝트)
 
 
