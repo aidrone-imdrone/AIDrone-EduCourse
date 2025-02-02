@@ -16,12 +16,6 @@
 
 <br/>
 
-[ FC board Top and Bottom ]
-
-![스크린샷 2024-06-06 160537](https://github.com/irbrain/AIDrone/assets/122161666/85da5282-dcb8-43db-859c-5bbfbca8e3fa)
-
-<br/><br/>
-
 ### 3. At First,  Put Battery Connector on the Bottom and Put in the Board
 
 <br/>
