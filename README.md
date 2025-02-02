@@ -20,7 +20,7 @@
 
 ## Advanced Course
 #### 09. 라즈베리파이 환경 설정 (Raspberry Pi Environment Setup)
-#### 10. 라즈베리파이 용법 (Raspberry Pi Usage and Applications)
+#### 10. 라즈베리파이 사용법 (Raspberry Pi Usage and Applications)
 #### 11. 딥러닝 기초 교육 (Introduction to Deep Learning)
 #### 12. 딥러닝 기반 드론 제어 (Deep Learning-based Drone Control)
 #### 13. YOLO 기반 프로젝트 (YOLO-based Object Detection Project)
