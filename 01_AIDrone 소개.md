@@ -1,5 +1,8 @@
 
-# AI 드론 제품 메뉴얼
+# AI 드론 
+
+![image](https://github.com/user-attachments/assets/b0a4e381-43ac-41de-b836-9239d0c14501)
+
 
 ## 1. 제품 소개
 - **목적:** 제품의 개요와 주요 특징을 소개합니다.
