@@ -5,8 +5,8 @@
 ## Basic Course
 #### 01. 드론 소개 (Introduction to Drones)
 #### 02. 조종기 사용법  (How to Use the Remote Controller)
-#### 03. 어플로 코딩비행 (Coding Flight with the Mobile App)
-#### 04. 스크래치를 이용한 코딩비행 (Coding Flight with Scratch)
+#### 03. 어플로 코딩 비행 (Coding Flight with the Mobile App)
+#### 04. 스크래치를 이용한 코딩 비행 (Coding Flight with Scratch)
 
 <br/>
 
