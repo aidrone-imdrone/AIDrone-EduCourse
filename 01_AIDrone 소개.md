@@ -83,6 +83,15 @@
    -  드론 바디에 배터리 커버를 결합하는 방법
      
 <img src="https://github.com/user-attachments/assets/5717e9ad-43ad-4cc3-820a-e1dc7d3e594e" width="500">
+
+   - 배터리 연결
+
+<img src="https://github.com/user-attachments/assets/d9e296dd-5f2f-4d63-bd2e-dffd73d397b0" width="500">
+
+   - USB 및 HDMI 연결
+
+<img src="https://github.com/user-attachments/assets/096d2c07-547f-4dad-baa6-e8a78d8e8292" width="500">
+
    
 ## 9. 가격 및 구매 방법  
    -  네이버 스토어
