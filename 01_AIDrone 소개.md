@@ -80,7 +80,7 @@
 
 <img src="https://github.com/user-attachments/assets/eb4bbf88-4dfb-4356-8db3-bc23121726bb" width="600">  <br/>
 
-   -  드론 바디에 배터리 커버를 결합하는 방법
+   -  드론 바디에 배터리 커버를 결합하는 방법 (왼쪽 두 개를 먼저 걸고 오른쪽 걸림에 결합)
      
 <img src="https://github.com/user-attachments/assets/5717e9ad-43ad-4cc3-820a-e1dc7d3e594e" width="600">
 
