@@ -78,15 +78,15 @@
 ## 8. 제품 구조
    - 라즈베리파이 Zero 2W와 카메라 연결
 
-<img src="https://github.com/user-attachments/assets/eb4bbf88-4dfb-4356-8db3-bc23121726bb" width="500">  <br/>
+<img src="https://github.com/user-attachments/assets/eb4bbf88-4dfb-4356-8db3-bc23121726bb" width="600">  <br/>
 
    -  드론 바디에 배터리 커버를 결합하는 방법
      
-<img src="https://github.com/user-attachments/assets/5717e9ad-43ad-4cc3-820a-e1dc7d3e594e" width="500">
+<img src="https://github.com/user-attachments/assets/5717e9ad-43ad-4cc3-820a-e1dc7d3e594e" width="600">
 
    - 배터리 연결
 
-<img src="https://github.com/user-attachments/assets/d9e296dd-5f2f-4d63-bd2e-dffd73d397b0" width="500">
+<img src="https://github.com/user-attachments/assets/d9e296dd-5f2f-4d63-bd2e-dffd73d397b0" width="800">
 
    - USB 및 HDMI 연결
 
