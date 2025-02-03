@@ -19,18 +19,16 @@
 
 <img src="https://user-images.githubusercontent.com/122161666/223174217-566dfccc-d62b-46f0-936e-5396f610b55b.png" width="500">
 
-**The closest drone address appears at the top. Click the address to connect.
-
-<br/>
+- The closest drone address appears at the top. Click the address to connect.
 
 ### 3) When the drone is successfully connected, the Bluetooth button will turn blue.
 
-<img src="https://github.com/user-attachments/assets/e922b59c-15b1-43d2-8275-87d4ea7ce8e0" width="500"> <br/>
+
 
 ### 3. Basic Screen Overview
 <br/> 
 
-<img src="https://github.com/user-attachments/assets/d3eca152-32fd-4e3e-b027-64f910d93b43" width="500"> 
+<img src="https://github.com/user-attachments/assets/e922b59c-15b1-43d2-8275-87d4ea7ce8e0" width="500"> <br/>
 
 <br/>
 
@@ -38,11 +36,11 @@
 
 <br/> 
 
-<img src="https://github.com/user-attachments/assets/7ea94468-d9e1-4372-8226-772e926f24ce" width="500"> 
+<img src="https://github.com/user-attachments/assets/a2d0f710-7f48-4eaa-91f0-eb6de36dcd29" width="500"> 
 
 <br/>
 
 ### 5. Select "Wireless Controller" → "Hovering Controller" from the Example Menu
 <br/> 
 
-<img src="https://github.com/user-attachments/assets/a68193ae-2af8-4b7c-83ac-55f9976f593e" width="800">
+<img src="https://github.com/user-attachments/assets/66cff3ae-4652-47b2-aa5c-ae1a277fc82b" width="800">
