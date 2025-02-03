@@ -1,1 +1,10 @@
-# Transmitter Usage
+# 1. Transmitter Functions
+
+<img src="https://github.com/user-attachments/assets/e9618aff-b230-4854-9276-f17a11786e2f" width="500">
+
+<img src="https://github.com/user-attachments/assets/c01e75b6-4185-4c0a-b894-3b08fb0e6ce0" width="600">
+
+# 2. Connect to PC
+
+<img src="https://github.com/user-attachments/assets/2c4e938b-70a1-45d5-8971-d369083c75d7" width="500">
+
