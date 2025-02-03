@@ -21,7 +21,7 @@
 ## 2. 하드웨어 사양  
 - **기체 구조 및 크기** <br/>
 
-     <img src="https://github.com/user-attachments/assets/b4d0493f-89c8-414a-8af4-e0abfb220cb9" width="600")
+     <img src="https://github.com/user-attachments/assets/b4d0493f-89c8-414a-8af4-e0abfb220cb9" width="600">
 
 - **주요 부품 및 구성 요소**  
   - **비행 컨트롤러(FC) 및 센서**  
