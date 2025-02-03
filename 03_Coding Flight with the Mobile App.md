@@ -11,19 +11,19 @@
 
 <br/>
 
-#### 1) Click the Bluetooth Search Button**
+#### 1) Click the Bluetooth Search Button
 
 <img src="https://user-images.githubusercontent.com/122161666/223172990-400be64d-2c5e-436e-bad8-3a972e3f62c3.png" width="500">
 
-#### 2) If there is an existing Bluetooth connection, click the trash icon to delete it. The available drone address will be displayed.**
+#### 2) If there is an existing Bluetooth connection, click the trash icon to delete it. The available drone address will be displayed.
 
 <img src="https://user-images.githubusercontent.com/122161666/223174217-566dfccc-d62b-46f0-936e-5396f610b55b.png" width="500">
 
-**The closest drone address appears at the top. Click the address to connect.**
+**The closest drone address appears at the top. Click the address to connect.
 
 <br/>
 
-### 3) When the drone is successfully connected, the Bluetooth button will turn blue.**
+### 3) When the drone is successfully connected, the Bluetooth button will turn blue.
 
 <img src="https://user-images.githubusercontent.com/122161666/223174800-d7cecbd3-9950-4f9a-ab4c-991619999b83.png" width="500"> <br/>
 
