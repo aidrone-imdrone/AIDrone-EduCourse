@@ -16,3 +16,7 @@
 
 <img src="https://github.com/user-attachments/assets/2c4e938b-70a1-45d5-8971-d369083c75d7" width="500">
 
+- Turn on the remote controller and connect the USB cable.
+- After connecting the USB, check the connection port in the Device Manager.
+- After connecting the battery to the drone, the green light will turn on once the drone is successfully connected to the remote controller.
+
