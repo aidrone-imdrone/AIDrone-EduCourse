@@ -25,7 +25,7 @@
 
 ### 3) When the drone is successfully connected, the Bluetooth button will turn blue.
 
-<img src="https://user-images.githubusercontent.com/122161666/223174800-d7cecbd3-9950-4f9a-ab4c-991619999b83.png" width="500"> <br/>
+<img src="https://github.com/user-attachments/assets/e922b59c-15b1-43d2-8275-87d4ea7ce8e0" width="500"> <br/>
 
 ### 3. Basic Screen Overview
 <br/> 
@@ -38,7 +38,7 @@
 
 <br/> 
 
-<img src="https://github.com/user-attachments/assets/168d6880-4bd8-44b7-9172-be9151809c3b" width="500"> 
+<img src="https://github.com/user-attachments/assets/7ea94468-d9e1-4372-8226-772e926f24ce" width="500"> 
 
 <br/>
 
