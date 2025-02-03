@@ -1,54 +1,46 @@
-# Flight AIDrone with Coding App 
+# Controlling AIDrone with the App
 
-### 1. install JCBlock  App in Android and Apple phone 
+### 1. Search and Install the JCBlock App on Android or Apple Devices
+<br/> 
 
-![image](https://user-images.githubusercontent.com/122161666/223170312-cce6c5c2-8516-4d83-ad7e-7b22ba26aefd.png)
+<img src="https://user-images.githubusercontent.com/122161666/223170312-cce6c5c2-8516-4d83-ad7e-7b22ba26aefd.png" width="400">
 
-<br/><br/>
-### 2. Open the JCBlock App and Connect with the bluetooth of  AIDrone's Fight Contorl Board 
+<br/>
 
+### 2. Open the JCBlock App and Connect to the Drone via Bluetooth (Make sure the drone is powered on.)
 
-1) Touch the Bluetooth Button
+<br/>
 
-![image](https://user-images.githubusercontent.com/122161666/223172990-400be64d-2c5e-436e-bad8-3a972e3f62c3.png)
+**1) Click the Bluetooth Search Button**
 
+<img src="https://user-images.githubusercontent.com/122161666/223172990-400be64d-2c5e-436e-bad8-3a972e3f62c3.png" width="500">
 
-2) Delete old Bluetooth Address and click the your drone blutooth address 
-   ( The drone's address above is close to you)
-  
- ![image](https://user-images.githubusercontent.com/122161666/223174217-566dfccc-d62b-46f0-936e-5396f610b55b.png)
- 
- 
- 3) if your drone is connected, bluetooth button is lightening 
+**2) If there is an existing Bluetooth connection, click the trash icon to delete it. The available drone address will be displayed.**
 
-![image](https://user-images.githubusercontent.com/122161666/223174800-d7cecbd3-9950-4f9a-ab4c-991619999b83.png)
+<img src="https://user-images.githubusercontent.com/122161666/223174217-566dfccc-d62b-46f0-936e-5396f610b55b.png" width="500">
 
+### The closest drone address appears at the top. Click the address to connect.
 
-<br/><br/>
-### 3. drag the red button in App to the right and  show examples and pad, control .. 
+**3) When the drone is successfully connected, the Bluetooth button will turn blue.**
 
-![image](https://user-images.githubusercontent.com/122161666/223177180-6ed60924-1179-448d-9b43-52daf751f333.png)
+<img src="https://user-images.githubusercontent.com/122161666/223174800-d7cecbd3-9950-4f9a-ab4c-991619999b83.png" width="500"> <br/>
 
-<br/><br/>
-### 4. Click the examples and click 1 number and then click the 25 number's exmaple(contorl dorne)
+### 3. Basic Screen Overview
+<br/> 
 
+<img src="https://github.com/user-attachments/assets/d3eca152-32fd-4e3e-b027-64f910d93b43" width="500"> 
 
-![image](https://user-images.githubusercontent.com/122161666/223179819-4430ec53-c6ba-498d-9c9d-6310b9c122fa.png)
+<br/>
 
-<br/><br/>
-### 5. press the triangle button in the top of screen. you can see drone's controler
+4. Slide the Left-Side Menu Button to the Right to Reveal the Menu
 
+<br/> 
 
-![image](https://user-images.githubusercontent.com/122161666/223181054-21a20a22-9043-4778-9036-4803221c92c1.png)
+<img src="https://github.com/user-attachments/assets/168d6880-4bd8-44b7-9172-be9151809c3b" width="500"> 
 
-<br/><br/>
-### 6. flight AIDrone 
+<br/>
 
-![image](https://user-images.githubusercontent.com/122161666/223181405-137d397b-4f75-480b-9563-ac5fcc261a64.png)
+### 5. Select "Wireless Controller" → "Hovering Controller" from the Example Menu
+<br/> 
 
-
-
-
-
-
-
+<img src="https://github.com/user-attachments/assets/a68193ae-2af8-4b7c-83ac-55f9976f593e" width="800">
