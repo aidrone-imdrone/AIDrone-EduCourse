@@ -26,18 +26,18 @@ Education, research, AI development, and drone programming
 
 - **Main Components & Features** <br/>
  - **Flight Controller (FC) & Sensors**
-     ICM-20602 (IMU: Gyroscope & Accelerometer)
-     SPL01 (Barometer)
-     PMW3901 (Optical Flow Sensor)
-     VL53L0X (Laser Distance Sensor)
+    - ICM-20602 (IMU: Gyroscope & Accelerometer)
+    - SPL01 (Barometer)
+    - PMW3901 (Optical Flow Sensor)
+    - VL53L0X (Laser Distance Sensor)
  - **Motors & Propellers**
-     8520 Coreless Motors
-     65mm Propellers
+    - 8520 Coreless Motors
+    - 65mm Propellers
  - **Battery**
-     1-cell 1000mAh LiPo Battery
+    - 1-cell 1000mAh LiPo Battery
  - **Expandable Hardware**
-     Raspberry Pi Zero 2 W (Optional)
-     Camera Module (For Object Detection & AI Vision)
+    - Raspberry Pi Zero 2 W (Optional)
+    - Camera Module (For Object Detection & AI Vision)
 
 ## 3. Software & Programming Environment
 - **Basic Flight & Control Software** <br/>
