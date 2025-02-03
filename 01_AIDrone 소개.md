@@ -77,11 +77,12 @@
    - 사용자 커뮤니티 및 기술 지원  
 
 ## 8. 제품 구조
-   - 
+   -  드론 바디에 배터리 커버를 결합하는 방법
+     
 <img src="https://github.com/user-attachments/assets/5717e9ad-43ad-4cc3-820a-e1dc7d3e594e" width="500">
 
    - 라즈베리파이 Zero 2W와 카메라 연결
-<img src="https://github.com/user-attachments/assets/eb4bbf88-4dfb-4356-8db3-bc23121726bb" width="400">
+<img src="https://github.com/user-attachments/assets/eb4bbf88-4dfb-4356-8db3-bc23121726bb" width="500">
 
    
 ## 9. 가격 및 구매 방법  
