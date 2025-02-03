@@ -25,73 +25,82 @@ Education, research, AI development, and drone programming
 <img src="https://github.com/user-attachments/assets/b4d0493f-89c8-414a-8af4-e0abfb220cb9" width="300">
 
 - **Main Components & Features** <br/>
-Flight Controller (FC) & Sensors
-ICM-20602 (IMU: Gyroscope & Accelerometer)
-SPL01 (Barometer)
-PMW3901 (Optical Flow Sensor)
-VL53L0X (Laser Distance Sensor)
-Motors & Propellers
-8520 Coreless Motors
-65mm Propellers
-Battery
-1-cell 1000mAh LiPo Battery
-Expandable Hardware
-Raspberry Pi Zero 2 W (Optional)
-Camera Module (For Object Detection & AI Vision)
-3. Software & Programming Environment
-Basic Flight & Control Software <br/>
+ - **Flight Controller (FC) & Sensors**
+     ICM-20602 (IMU: Gyroscope & Accelerometer)
+     SPL01 (Barometer)
+     PMW3901 (Optical Flow Sensor)
+     VL53L0X (Laser Distance Sensor)
+ - **Motors & Propellers**
+     8520 Coreless Motors
+     65mm Propellers
+ - **Battery**
+     1-cell 1000mAh LiPo Battery
+ - **Expandable Hardware**
+     Raspberry Pi Zero 2 W (Optional)
+     Camera Module (For Object Detection & AI Vision)
 
-Control the drone via the JCBlock app, available for Android and iPhone.
-Program the drone using Scratch 3 with AI Drone Blocks.
-Install Python libraries to control the drone with Python scripts.
-Supported Programming Languages & Environments
+## 3. Software & Programming Environment
+- **Basic Flight & Control Software** <br/>
+   - Control the drone via the JCBlock app, available for Android and iPhone.
+   - Program the drone using Scratch 3 with AI Drone Blocks.
+   - Install Python libraries to control the drone with Python scripts.
+- **Supported Programming Languages & Environments**
+   - Scratch-based programming
+   - Python-based programming
+   - C++ and ROS2 (Expandable)
+- **AI & Machine Learning Support**
+   - YOLO-based object detection & tracking
+   - Vision processing using OpenCV
+   - Deep learning frameworks (TensorFlow Lite, PyTorch)
 
-Scratch-based programming
-Python-based programming
-C++ and ROS2 (Expandable)
-AI & Machine Learning Support
+## 4. Coding Drone & AI Drone Modes
+- **Coding Drone Mode (Without Raspberry Pi)**
+   - Basic programming using sensors
+   - Obstacle avoidance flight with coding
+- **AI Coding Drone Mode (With Raspberry Pi)**
+   - Real-time object detection & tracking
+   - AI-based autonomous flight
 
-YOLO-based object detection & tracking
-Vision processing using OpenCV
-Deep learning frameworks (TensorFlow Lite, PyTorch)
-4. Coding Drone & AI Drone Modes
-Coding Drone Mode (Without Raspberry Pi)
+## 5. Flight Performance & Features
+   - Coding-based flight control
+   - Position hold using an optical flow sensor
+   - Altitude hold & obstacle detection
+   - Various AI-based experiments
 
-Basic programming using sensors
-Obstacle avoidance flight with coding
-AI Coding Drone Mode (With Raspberry Pi)
+## 6. Educational Use Cases
+   - Beginner-friendly coding lessons
+   - AI & deep learning-based projects
+   - Drone simulation & real-world flight training
 
-Real-time object detection & tracking
-AI-based autonomous flight
-5. Flight Performance & Features
-Coding-based flight control
-Position hold using an optical flow sensor
-Altitude hold & obstacle detection
-Various AI-based experiments
-6. Educational Use Cases
-Beginner-friendly coding lessons
-AI & deep learning-based projects
-Drone simulation & real-world flight training
-7. Expandability & Community Support
-Open-source software support
-Expandable via ROS2
-User community & technical support
-8. Product Assembly & Structure
-Raspberry Pi Zero 2W and Camera Connection
+## 7. Expandability & Community Support
+   - Open-source software support
+   - Expandable via ROS2
+   - User community & technical support
+
+## 8. Product Assembly & Structure
+   - Raspberry Pi Zero 2W and Camera Connection <br/>
+   
 <img src="https://github.com/user-attachments/assets/eb4bbf88-4dfb-4356-8db3-bc23121726bb" width="600"> <br/>
 
-How to Attach the Battery Cover to the Drone Body (First hook the left two parts, then snap in the right side)
+   - How to Attach the Battery Cover to the Drone Body (First hook the left two parts, then snap in the right side) <br/>
+   
 <img src="https://github.com/user-attachments/assets/5717e9ad-43ad-4cc3-820a-e1dc7d3e594e" width="600">
-Battery Connection
+
+   - Battery Connection <br/>
+   
 <img src="https://github.com/user-attachments/assets/d9e296dd-5f2f-4d63-bd2e-dffd73d397b0" width="800">
-USB & HDMI Connection
+
+   - USB & HDMI Connection <br/>
+
 <img src="https://github.com/user-attachments/assets/096d2c07-547f-4dad-baa6-e8a78d8e8292" width="500">
-9. Pricing & Purchase Methods
-Available on Naver Store
-Visit:
-www.smart.storefarm.com/aidrone
-10. Technical Support & Customer Service
-User manuals & tutorials provided
-Warranty & customer support
-Contact Email: aidronebky@naver.com
+
+## 9. Pricing & Purchase Methods
+   - Available on Naver Store
+   - Visit:
+      www.smart.storefarm.com/aidrone
+
+## 10. Technical Support & Customer Service
+   - User manuals & tutorials provided
+   - Warranty & customer support
+   - Contact Email: aidronebky@naver.com
 
