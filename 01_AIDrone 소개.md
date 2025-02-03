@@ -21,7 +21,7 @@
 ## 2. 하드웨어 사양  
 - **기체 구조 및 크기** <br/>
 
-     <img src="https://github.com/user-attachments/assets/b4d0493f-89c8-414a-8af4-e0abfb220cb9" width="400">
+     <img src="https://github.com/user-attachments/assets/b4d0493f-89c8-414a-8af4-e0abfb220cb9" width="300">
 
 - **주요 부품 및 구성 요소**  
   - **비행 컨트롤러(FC) 및 센서**  
@@ -77,10 +77,16 @@
    - 사용자 커뮤니티 및 기술 지원  
 
 ## 8. 제품 구매 및 패키지 구성  
-   - 기본 패키지 내용  
-   - 추가 확장 모듈 옵션  
-   - 가격 및 구매 방법  
 
-## 9. 기술 지원 및 고객 지원  
+       <img src="https://github.com/user-attachments/assets/947fad5a-8fdc-47d2-80df-5b35cd5e6647" width="300">
+   
+## 9. 가격 및 구매 방법  
+   -  네이버 스토어
+   -  
+      www.smart.storefarm.com/aidrone     
+
+## 10. 기술 지원 및 고객 지원  
 - 사용자 매뉴얼 및 튜토리얼 제공  
-- A/S 및 고객 지원 정책  
+- A/S 및 고객 지원 정책
+  
+    aidronebky@naver.com
