@@ -76,12 +76,10 @@
    - ROS2 기반 확장 가능  
    - 사용자 커뮤니티 및 기술 지원  
 
-## 8. 제품 구매 및 패키지 구성  
-<img src="https://github.com/user-attachments/assets/48da22bc-9756-41bb-9a3b-3d0f44e7ec31" width="300">
-
-       <img src="https://github.com/user-attachments/assets/947fad5a-8fdc-47d2-80df-5b35cd5e6647" width="300">
+## 8. 제품 구조
+<img src="https://github.com/user-attachments/assets/5717e9ad-43ad-4cc3-820a-e1dc7d3e594e" width="300">
    
-## 9. 가격 및 구매 방법  
+## 8. 가격 및 구매 방법  
    -  네이버 스토어
    -  
       www.smart.storefarm.com/aidrone     
