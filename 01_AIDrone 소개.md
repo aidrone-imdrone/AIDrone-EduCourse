@@ -1,7 +1,7 @@
 
 # AI 드론 
 
-<img src="https://github.com/user-attachments/assets/625eddd1-4051-4b8c-a96d-8167f8337f1c" width="500">
+<img src="https://github.com/user-attachments/assets/625eddd1-4051-4b8c-a96d-8167f8337f1c" width="600">
 
 ## 1. 제품 개요  
 - **제품명 및 개요** <br/>
@@ -78,7 +78,7 @@
 ## 8. 제품 구조
    - 라즈베리파이 Zero 2W와 카메라 연결
 
-<img src="https://github.com/user-attachments/assets/eb4bbf88-4dfb-4356-8db3-bc23121726bb" width="500">
+<img src="https://github.com/user-attachments/assets/eb4bbf88-4dfb-4356-8db3-bc23121726bb" width="500">  <br/>
 
    -  드론 바디에 배터리 커버를 결합하는 방법
      
