@@ -1,4 +1,4 @@
-# 1. Transmitter Functions
+# 1. Remote Controller Functions
 
 <img src="https://github.com/user-attachments/assets/e9618aff-b230-4854-9276-f17a11786e2f" width="500">
 
