@@ -1,6 +1,6 @@
 # 1. Remote Controller Functions
 
-<img src="https://github.com/user-attachments/assets/e9618aff-b230-4854-9276-f17a11786e2f" width="500">
+<img src="https://github.com/user-attachments/assets/94cec15d-f496-4f10-8660-6bdb415abff8" width="500">
 
 <img src="https://github.com/user-attachments/assets/c01e75b6-4185-4c0a-b894-3b08fb0e6ce0" width="600">
 
