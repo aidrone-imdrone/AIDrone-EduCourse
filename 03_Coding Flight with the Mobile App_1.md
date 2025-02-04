@@ -33,7 +33,6 @@
 
 <img src="https://github.com/user-attachments/assets/33681052-6c68-4ff0-a392-207a65379184" width="800">
 
-
 <br/>
 
 ### 4. Slide the Left-Side Menu Button to the Right to Reveal the Menu
@@ -61,7 +60,7 @@
 
 #### 2) Height Control
 
-<img src="https://github.com/user-attachments/assets/b2bfb1c1-5376-45e1-8e6a-69ed1e026d4f" width="500">
+<img src="https://github.com/user-attachments/assets/b2bfb1c1-5376-45e1-8e6a-69ed1e026d4f" width="800">
 
 #### 3) Distance Control
 
