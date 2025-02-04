@@ -39,14 +39,14 @@
 
 <br/> 
 
-<img src="https://github.com/user-attachments/assets/a2d0f710-7f48-4eaa-91f0-eb6de36dcd29" width="500"> 
+<img src="https://github.com/user-attachments/assets/a2d0f710-7f48-4eaa-91f0-eb6de36dcd29" width="800"> 
 
 <br/>
 
 ### 5. Select "Wireless Controller" → "Hovering Controller" from the Example Menu
 <br/> 
 
-<img src="https://github.com/user-attachments/assets/66cff3ae-4652-47b2-aa5c-ae1a277fc82b" width="800">
+<img src="https://github.com/user-attachments/assets/66cff3ae-4652-47b2-aa5c-ae1a277fc82b" width="600">
 
 <br/><br/>
 
