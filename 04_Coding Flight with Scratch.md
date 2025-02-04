@@ -38,7 +38,7 @@ https://drive.google.com/file/d/1sS3Le17AZ-gyiQDPwoeQ0xRbzbsOglcy/view?usp=drive
 
 <br/>
 
-<img width="518" alt="image" src="https://github.com/user-attachments/assets/06ea2e5d-7ab6-42bd-b297-fd5fc2507bad">
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/06ea2e5d-7ab6-42bd-b297-fd5fc2507bad">
 
 <br/><br/>
 
@@ -54,7 +54,7 @@ https://drive.google.com/file/d/1sS3Le17AZ-gyiQDPwoeQ0xRbzbsOglcy/view?usp=drive
 
 <br/>
 
-<img src="https://github.com/user-attachments/assets/a3e862dd-24f3-4a0b-a7e6-a46c5ff91321" width="600">
+<img src="https://github.com/user-attachments/assets/a3e862dd-24f3-4a0b-a7e6-a46c5ff91321" width="800">
 
 
 <br/><br/>
@@ -63,7 +63,7 @@ https://drive.google.com/file/d/1sS3Le17AZ-gyiQDPwoeQ0xRbzbsOglcy/view?usp=drive
 
 <br/>
 
-<img src="https://github.com/user-attachments/assets/14c03d60-ee99-483e-b636-9ed252134560" width="600">
+<img src="https://github.com/user-attachments/assets/14c03d60-ee99-483e-b636-9ed252134560" width="500">
 
 <br/><br/>
 
@@ -71,7 +71,7 @@ https://drive.google.com/file/d/1sS3Le17AZ-gyiQDPwoeQ0xRbzbsOglcy/view?usp=drive
 
 <br/>
 
-<img src="https://github.com/user-attachments/assets/81ec4193-596b-4892-a039-1a06ed97a119" width="600">
+<img src="https://github.com/user-attachments/assets/81ec4193-596b-4892-a039-1a06ed97a119" width="500">
 
 <br/><br/>
 
