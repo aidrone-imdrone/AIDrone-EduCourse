@@ -68,7 +68,7 @@
 
 #### 4) Distance Control VS Velocity Control
 
-<img src="https://github.com/user-attachments/assets/fc1b0538-6791-49ff-9ef2-480898818269" width="600">
+<img src="https://github.com/user-attachments/assets/fd9bb21d-c1e3-425a-96d3-ae6e3900edd4" width="800">
 
 #### 5) Rotation Control
 
