@@ -54,7 +54,7 @@ https://drive.google.com/file/d/1sS3Le17AZ-gyiQDPwoeQ0xRbzbsOglcy/view?usp=drive
 
 <br/>
 
-<img src="https://github.com/user-attachments/assets/a3e862dd-24f3-4a0b-a7e6-a46c5ff91321" width"600">
+<img src="https://github.com/user-attachments/assets/a3e862dd-24f3-4a0b-a7e6-a46c5ff91321" width="600">
 
 
 <br/><br/>
@@ -63,7 +63,7 @@ https://drive.google.com/file/d/1sS3Le17AZ-gyiQDPwoeQ0xRbzbsOglcy/view?usp=drive
 
 <br/>
 
-<img src="https://github.com/user-attachments/assets/14c03d60-ee99-483e-b636-9ed252134560" width="500">
+<img src="https://github.com/user-attachments/assets/14c03d60-ee99-483e-b636-9ed252134560" width="600">
 
 <br/><br/>
 
