@@ -60,11 +60,11 @@
 
 #### 2) Height Control
 
-<img src="https://github.com/user-attachments/assets/b2bfb1c1-5376-45e1-8e6a-69ed1e026d4f" width="800">
+<img src="https://github.com/user-attachments/assets/3af573b6-2189-45b9-8c3a-fb87c592a6da" width="800">
 
 #### 3) Distance Control
 
-<img src="https://github.com/user-attachments/assets/f9835d84-f486-4e51-a42f-43c273a201db" width="500">
+<img src="https://github.com/user-attachments/assets/72f2bd95-f338-411f-a116-0e7d39b6fe91" width="500">
 
 #### 4) Distance Control VS Velocity Control
 
