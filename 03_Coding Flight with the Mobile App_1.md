@@ -72,5 +72,5 @@
 
 #### 5) Rotation Control
 
-<img src="https://github.com/user-attachments/assets/e083dbba-d457-47c6-9989-b5314ca6d852" width="600">
+<img src="https://github.com/user-attachments/assets/49fea772-4579-472a-91eb-25db0f67479c" width="600">
 
