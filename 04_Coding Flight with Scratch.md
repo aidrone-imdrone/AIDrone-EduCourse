@@ -79,7 +79,7 @@ https://drive.google.com/file/d/1sS3Le17AZ-gyiQDPwoeQ0xRbzbsOglcy/view?usp=drive
 
 <br/>
 
-<img src="https://github.com/user-attachments/assets/25a5336a-5f39-4332-ace6-add7962af09f" width="600">
+<img src="https://github.com/user-attachments/assets/25a5336a-5f39-4332-ace6-add7962af09f" width="800">
 
 
 
