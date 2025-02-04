@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/3748b100-9179-45c8-a90a-c29d0a2b1d49)## 7. Mission Flight
+## 7. Mission Flight
 
 #### 1) Bumpy Flight
 
