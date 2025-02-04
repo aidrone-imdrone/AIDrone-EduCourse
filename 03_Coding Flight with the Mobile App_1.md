@@ -60,7 +60,7 @@
 
 #### 2) Height Control
 
-<img src="https://github.com/user-attachments/assets/3af573b6-2189-45b9-8c3a-fb87c592a6da" width="800">
+<img src="https://github.com/user-attachments/assets/3af573b6-2189-45b9-8c3a-fb87c592a6da" width="600">
 
 #### 3) Distance Control
 
