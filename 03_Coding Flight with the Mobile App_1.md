@@ -50,7 +50,7 @@
 
 <br/><br/>
 
-## 6. Menu
+## 6. Menu similar to Scratch
 
 <br/>
 
