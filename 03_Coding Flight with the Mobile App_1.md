@@ -54,6 +54,6 @@
 
 <br/>
 
-<img src="https://github.com/user-attachments/assets/4c421604-31ee-4aec-af4f-897eadf706ed" width="500">
+<img src="https://github.com/user-attachments/assets/4c421604-31ee-4aec-af4f-897eadf706ed" width="800">
 
 
