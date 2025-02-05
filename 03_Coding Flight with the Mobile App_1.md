@@ -50,27 +50,10 @@
 
 <br/><br/>
 
-## 6. Examples Coding
+## 6. Menu
 
 <br/>
 
-#### 1) TakeOff / Landing
+<img src="https://github.com/user-attachments/assets/4c421604-31ee-4aec-af4f-897eadf706ed" width="500">
 
-<img src="https://github.com/user-attachments/assets/63c878a3-a596-4671-91c0-4dea5dac86d4" width="500">
-
-#### 2) Height Control
-
-<img src="https://github.com/user-attachments/assets/3af573b6-2189-45b9-8c3a-fb87c592a6da" width="600">
-
-#### 3) Distance Control
-
-<img src="https://github.com/user-attachments/assets/72f2bd95-f338-411f-a116-0e7d39b6fe91" width="500">
-
-#### 4) Distance Control VS Velocity Control
-
-<img src="https://github.com/user-attachments/assets/508fab7e-4957-4839-9ef1-c88640848124" width="800">
-
-#### 5) Rotation Control
-
-<img src="https://github.com/user-attachments/assets/49fea772-4579-472a-91eb-25db0f67479c" width="600">
 
