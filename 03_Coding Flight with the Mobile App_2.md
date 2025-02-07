@@ -23,10 +23,16 @@
 
 <img src="https://github.com/user-attachments/assets/b84a41b6-d84d-43b8-8d84-3dc87adcf0b8" width="400">
 
-#### 3) Triangle Flight_1 (Isosceles Triangle)
+#### 3) Circle Flight 
 
-<img src="https://github.com/user-attachments/assets/2400efa8-4acf-477a-988c-1c1c8e3d2c94" width="800">
+<img src="https://github.com/user-attachments/assets/2ca30bcb-7177-48b2-aef8-9dc4fec7940a" width="800">
 
+<br/>
+
+-  20 x 15 degree = 360 degree
+-  The forward movement distance varies depending on the radius.
+-  If you increase the forward movement from 5 cm to 10 cm or 15 cm, the size of the circle becomes larger.
+  
 <br/><br/>
 
 #### 4) Triangle Flight_2 (Isosceles Triangle)
