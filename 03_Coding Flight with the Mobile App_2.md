@@ -35,8 +35,4 @@
   
 <br/><br/>
 
-#### 4) Triangle Flight_2 (Isosceles Triangle)
-
-<img src="https://github.com/user-attachments/assets/ca16ff80-05f0-4416-937c-c31dbde7971e" width="800">
-
-<br/><br/>
+#### 4) 
