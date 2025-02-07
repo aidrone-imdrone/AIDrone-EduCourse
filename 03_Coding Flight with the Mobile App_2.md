@@ -21,7 +21,7 @@
 
 <br/><br/>
 
-<img src="https://github.com/user-attachments/assets/332596b3-d9ed-4c4e-bc0e-3652592112b2" width="400">
+<img src="https://github.com/user-attachments/assets/b84a41b6-d84d-43b8-8d84-3dc87adcf0b8" width="400">
 
 #### 3) Triangle Flight_1 (Isosceles Triangle)
 
