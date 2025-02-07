@@ -25,7 +25,7 @@
 
 #### 3) Circle Flight 
 
-<img src="https://github.com/user-attachments/assets/2ca30bcb-7177-48b2-aef8-9dc4fec7940a" width="800">
+<img src="https://github.com/user-attachments/assets/2ca30bcb-7177-48b2-aef8-9dc4fec7940a" width="500">
 
 <br/>
 
