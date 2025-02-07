@@ -15,6 +15,8 @@
 
 <img src="https://github.com/user-attachments/assets/4139f4c8-6bf5-41b6-ad15-b3427a972ecf" width="300">
 
+<br/><br/>
+
 #### 2) Triangle Flight (Equilateral Triangle)
 
 <img src="https://github.com/user-attachments/assets/cd0ca9dc-3456-41dd-9cf7-277d5cf4f5f3" width="500">
