@@ -11,7 +11,7 @@
 
 ## 2. Install AIDrone's Python library
 
-#### **cmd window ** 
+#### cmd window 
      
        pip install pyaidrone
 
@@ -19,26 +19,27 @@
 
 <br/><br/>
 
-#### **Anaconda Python Virtual Environment **
+#### Anaconda Python Virtual Environment
 
        conda activate aidrone
 
        pip install pyaidrone
 
-- **Anaconda must be run with administrator privileges.**
+
+- Anaconda must be run with administrator privileges.
   
 <img src="https://github.com/user-attachments/assets/050b059c-a5df-4e56-b481-d2c224620fe7" width="500">
 
 <br/><br/>
 
-- **Create Python Virtual Environment**
+- Create Python Virtual Environment
   
-![image](https://github.com/user-attachments/assets/7dc8388a-2e52-4f9a-b91c-b9f70dfee319)
+<img src="https://github.com/user-attachments/assets/7dc8388a-2e52-4f9a-b91c-b9f70dfee319" width="500">
 
 <br/>
 
-- **Install pyaidrone in Python Virtual Environment**
-
+- Install pyaidrone in Python Virtual Environment
+  
 <img src="https://github.com/user-attachments/assets/d0a785b5-6a11-4fa5-8061-e22c19afaf7d" width="500">
 
 <br/><br/>
