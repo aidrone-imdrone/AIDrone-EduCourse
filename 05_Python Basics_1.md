@@ -47,6 +47,12 @@ Python is a powerful programming language that is easy to learn. This lecture ma
      ```
    - If the installed Python version is displayed, the installation was successful.
 
+<br/>
+  
+<img src="https://github.com/user-attachments/assets/1acf2bdb-37a2-4c4b-896b-9a2711120676" width="500">
+
+<br/><br/>
+
 ### Installing on macOS
 1. **Check if Python is already installed**
    - Open Terminal and run:
