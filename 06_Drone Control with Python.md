@@ -6,6 +6,7 @@
 
 <img src="https://github.com/irbrain/AIDrone/assets/122161666/e6effc21-2827-4180-9aa8-3b1d017a3179" width="500">
 
+- Please, Check Serial Port
 <br/><br/>
 
 ## 2. Install AIDrone's Python library
