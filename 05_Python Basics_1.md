@@ -117,6 +117,18 @@ Python is a powerful programming language that is easy to learn. This lecture ma
   exit()
   ```
 
+### IDE에서  Python 실행
+
+<br/>
+
+<img src="https://github.com/user-attachments/assets/6bddfdc5-c622-4479-b4af-16119ef2dd46" width="300">
+
+<br/><br/>
+
+<img src="https://github.com/user-attachments/assets/6b640997-175a-49a6-a3e5-37d33a535ed2" width="800">
+
+<br/>
+
 ### Running a Python Script
 1. Create a file named `hello.py` and write the following code:
    ```python
