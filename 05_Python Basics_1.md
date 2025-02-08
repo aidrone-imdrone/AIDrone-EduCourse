@@ -32,7 +32,13 @@ Python is a powerful programming language that is easy to learn. This lecture ma
    - Open the downloaded `.exe` file.
    - **Check the option**: `Add Python to PATH`
    - Click `Install Now`
-   
+
+<br/>
+
+<img src="https://github.com/user-attachments/assets/d3cec976-b54c-4e8f-b4b1-000ba07fa78a" width="500">
+
+<br/>
+
 3. **Verify Installation**
    - Open Command Prompt (`Win + R`, type `cmd`, then press Enter)
    - Enter the following command:
