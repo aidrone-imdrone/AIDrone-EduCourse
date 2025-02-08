@@ -19,7 +19,152 @@ Python is a powerful programming language that is easy to learn. This lecture ma
 
 ---
 
-## 📌 2. Basic Python Syntax
+## 📌 2. Python Installation and Usage Guide
+
+## 1. Installing Python
+
+### Installing on Windows
+1. **Download Python**
+   - Visit the official Python website: [https://www.python.org/downloads/](https://www.python.org/downloads/)
+   - Click the "Download Python" button to download the latest version.
+   
+2. **Run the Installer**
+   - Open the downloaded `.exe` file.
+   - **Check the option**: `Add Python to PATH`
+   - Click `Install Now`
+   
+3. **Verify Installation**
+   - Open Command Prompt (`Win + R`, type `cmd`, then press Enter)
+   - Enter the following command:
+     ```sh
+     python --version
+     ```
+   - If the installed Python version is displayed, the installation was successful.
+
+### Installing on macOS
+1. **Check if Python is already installed**
+   - Open Terminal and run:
+     ```sh
+     python3 --version
+     ```
+   - If Python is not installed, proceed to the next step.
+
+2. **Install Python using Homebrew** (Recommended)
+   - If Homebrew is not installed, run:
+     ```sh
+     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+     ```
+   - Install Python:
+     ```sh
+     brew install python
+     ```
+
+3. **Verify Installation**
+   - Run:
+     ```sh
+     python3 --version
+     ```
+
+### Installing on Linux
+1. **Check if Python is already installed**
+   - Run:
+     ```sh
+     python3 --version
+     ```
+   
+2. **Install Python on Debian/Ubuntu**
+   - Run the following commands:
+     ```sh
+     sudo apt update
+     sudo apt install python3 python3-pip
+     ```
+   
+3. **Install Python on CentOS/RHEL**
+   - Run:
+     ```sh
+     sudo yum install python3
+     ```
+   
+4. **Verify Installation**
+   - Run:
+     ```sh
+     python3 --version
+     ```
+
+## 2. Using Python
+
+### Running Python in the Terminal
+- Open a terminal or command prompt.
+- Enter:
+  ```sh
+  python
+  ```
+- The Python interpreter (`>>>`) will appear.
+- To exit, enter:
+  ```sh
+  exit()
+  ```
+
+### Running a Python Script
+1. Create a file named `hello.py` and write the following code:
+   ```python
+   print("Hello, World!")
+   ```
+2. Save the file and run it with:
+   ```sh
+   python hello.py  # or python3 hello.py
+   ```
+
+## 3. Installing Python Packages
+- Install packages using `pip`:
+  ```sh
+  pip install package_name
+  ```
+- Example:
+  ```sh
+  pip install numpy
+  ```
+- Check installed packages:
+  ```sh
+  pip list
+  ```
+- Upgrade a package:
+  ```sh
+  pip install --upgrade package_name
+  ```
+
+## 4. Using Virtual Environments
+- Create a virtual environment:
+  ```sh
+  python -m venv myenv
+  ```
+- Activate the virtual environment:
+  - Windows:
+    ```sh
+    myenv\Scripts\activate
+    ```
+  - macOS/Linux:
+    ```sh
+    source myenv/bin/activate
+    ```
+- Deactivate the virtual environment:
+  ```sh
+  deactivate
+  ```
+
+## 5. Writing and Running a Simple Python Program
+1. Create a file named `example.py` and write the following code:
+   ```python
+   name = input("Enter your name: ")
+   print(f"Hello, {name}!")
+   ```
+2. Run the script with:
+   ```sh
+   python example.py
+   ```
+<br/>
+
+## 📌3. Basic Python Syntax
 
 ### 🔹 Variables and Data Types
 ```python
