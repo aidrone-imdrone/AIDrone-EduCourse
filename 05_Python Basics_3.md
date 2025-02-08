@@ -165,11 +165,22 @@ s.introduce()
 
 ---
 
-# 🚀 Summary
-- **Classes and Objects**
-- **Inheritance, Polymorphism, Encapsulation**
-- **Class Methods and Static Methods**
-- **OOP Practical Examples**
+## 📌 8. Summary and Next Steps  
+### ✅ Summary of Today's Lesson  
+- **Classes and Objects**  
+- **Inheritance, Polymorphism, Encapsulation**  
+- **Class Methods / Static Methods**  
+- **OOP Practical Examples**  
 
-Python's OOP enhances **code reusability** and **maintainability**, making it an essential concept to learn! 🚀
+Python's OOP improves **code reusability** and **maintainability**, so be sure to master it! 🚀  
+
+### ✅ Next Steps  
+- **Data Analysis (Pandas, NumPy)**  
+- **Artificial Intelligence and Machine Learning (TensorFlow, PyTorch)**  
+
+---
+
+## 🚀 Conclusion  
+By using this lecture material, you can easily understand Python and build a solid foundation in programming.
+
 
