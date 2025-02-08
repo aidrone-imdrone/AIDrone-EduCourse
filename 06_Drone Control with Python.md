@@ -1,51 +1,48 @@
 # Flight AIDrone with python code in PC
 
 ## 1. Connect Transmitter with PC  by USB Cable
+
 <br/>    
 
-![KakaoTalk_20240606_085057982](https://github.com/irbrain/AIDrone/assets/122161666/e6effc21-2827-4180-9aa8-3b1d017a3179)
+<img src="https://github.com/irbrain/AIDrone/assets/122161666/e6effc21-2827-4180-9aa8-3b1d017a3179" width="500:>
 
-## 2. How to control Transmitter
+<br/><br/>
 
-<br/> 
+## 2. Install AIDrone's Python library
 
-![스크린샷 2024-06-06 134620](https://github.com/irbrain/AIDrone/assets/122161666/b644e3a0-6b22-44c1-8a6a-f3f92bee0bbd)
-
-<br/> 
-  
-## 3. Setting up a developement environment on a PC
-
-#### 1) install Anaconda (https://www.anaconda.com)
-    
-#### 2) Run anaconda prompt with administrator privileges.
-
-<br/>
-
-![image](https://user-images.githubusercontent.com/122161666/223847583-ee36b5aa-ec12-4583-9f48-5703e987ab20.png)  
-
-<br/>
-
-#### 3) Create a python virtual environment in the anaconda prompt
-    
-       conda create -n aidrone python=[version]
-
-<br/>
-
-#### 4) Install AIDrone python Library in the anaconda prompt
+#### **cmd window ** 
      
        pip install pyaidrone
 
+<img src="https://github.com/user-attachments/assets/86719370-333d-479c-8e81-58139d644b6d" width="500">
+
+<br/><br/>
+
+#### **Anaconda Python Virtual Environment **
+
+       conda activate aidrone
+
+       pip install pyaidrone
+
+- **Anaconda must be run with administrator privileges.**
+  
+<img src="https://github.com/user-attachments/assets/050b059c-a5df-4e56-b481-d2c224620fe7" width="500">
+
+<br/><br/>
+
+- **Create Python Virtual Environment**
+  
+![image](https://github.com/user-attachments/assets/7dc8388a-2e52-4f9a-b91c-b9f70dfee319)
+
 <br/>
 
-#### 5) Install Visual Studio Code (https://code.visualstudio.com)  
+- **Install pyaidrone in Python Virtual Environment**
 
-<br/>
+<img src="https://github.com/user-attachments/assets/d0a785b5-6a11-4fa5-8061-e22c19afaf7d" width="500">
 
-#### 6) Let's Programing in the Visual Studio Code
+<br/><br/>
 
-<br/>
- 
-## 4. Test the exmaples in the Visual Studio Code 
+## 3. Python Examples
 
 #### 1) each motor contorl for 2 seconds
 
