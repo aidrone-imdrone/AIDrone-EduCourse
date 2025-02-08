@@ -14,7 +14,7 @@
 #### 05. Python Basics (파이썬 기초)
 #### 06. Drone Control with Python (파이썬 드론 제어)
 #### 07. Sensor Data Processing and Applications (센서 데이터 처리 및 활용)
-#### 08. Computer Vision Programming Using OpenCV ( OpenCV 컴퓨터 비젼 프로그래밍)
+#### 08. Drone Vision Programming Using OpenCV ( OpenCV 드론 비젼 프로그래밍)
 
 <br/>
 
