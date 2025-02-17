@@ -47,14 +47,22 @@
 
 <br/><br/>
 
-### 5. Select "Wireless Controller" → "Hovering Controller" from the Example Menu for Remote Controller 
+## 5. How to close Main Menu and Sub Menu
+
+<br/>
+
+<img src="https://github.com/user-attachments/assets/6cfb4269-ef13-425a-9662-e0d2d342c283" width="700">
+
+<br/><br/>
+
+### 6. Select "Wireless Controller" → "Hovering Controller" from the Example Menu for Remote Controller 
 <br/> 
 
 <img src="https://github.com/user-attachments/assets/abc59af0-56be-4c2e-a90b-43fe1edf9c86" width="700">
 
 <br/><br/>
 
-## 6. Menu similar to Scratch
+## 7. Menu similar to Scratch
 
 <br/>
 
