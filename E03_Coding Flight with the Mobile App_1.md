@@ -35,7 +35,7 @@
 
 <br/>
 
-### 4. Slide the Left-Side Menu Button to the Right to Reveal the Menu
+### 4. Slide the Left-Side Button to the Right to Reveal the Main Menu
 
 <br/> 
 
