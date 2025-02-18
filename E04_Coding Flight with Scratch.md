@@ -81,6 +81,10 @@ https://drive.google.com/file/d/1W4ICVs3aHEajTCLvSj_kYarL0XtcgA4E/view?usp=drive
 
 <img src="https://github.com/user-attachments/assets/25a5336a-5f39-4332-ace6-add7962af09f" width="800">
 
+<br/>
+
+## 10. Scratch Exampels
+
 
 
 
