@@ -54,7 +54,7 @@
 ### 6. Select "Wireless Controller" → "Hovering Controller" from the Example Menu for Remote Controller 
 <br/> 
 
-<img src="https://github.com/user-attachments/assets/abc59af0-56be-4c2e-a90b-43fe1edf9c86" width="700">
+<img src="https://github.com/user-attachments/assets/abc59af0-56be-4c2e-a90b-43fe1edf9c86" width="800">
 
 <br/><br/>
 
