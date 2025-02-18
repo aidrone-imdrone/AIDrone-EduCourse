@@ -37,7 +37,7 @@
 
 <br/><br/>
 
--  20 x 15 degree = 360 degree
+-  24 x 15 degree = 360 degree
 -  The forward movement distance varies depending on the radius.
 -  If you increase the forward movement from 5 cm to 10 cm or 15 cm, the size of the circle becomes larger.
   
