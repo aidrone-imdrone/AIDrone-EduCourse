@@ -86,9 +86,13 @@
 
 ### 7) AP Mode to STA or  STA to AP Mode
 
+<br/>
+
 - **AT Mode**
 
     sudo   /usr/local/bin/switch_wifi_mode.sh   AP   my_custom_SSID
+
+<br/>
 
 - **STA**
 
