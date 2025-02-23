@@ -70,7 +70,7 @@
 
 <img src="https://github.com/user-attachments/assets/e9f3a5fb-403b-48a2-8bf2-5143b5beb6e8" width="500">
 
-<br/>
+<br/><br/>
 
 - **Stop  mjpg-streamer service** 
 
@@ -82,7 +82,7 @@
 
      sudo systemctl disable mjpg-streamer
 
-<br/>
+<br/><br/>
 
 ### 7) AP Mode to STA or  STA to AP Mode
 
