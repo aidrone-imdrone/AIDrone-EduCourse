@@ -43,3 +43,55 @@
      
      passwd :  1234
 
+<br/>
+
+### 5) Connect AIDrone with PC Putty
+
+
+<br/>
+
+### 6) Start  mjpg-streamer service 
+
+<br/>
+
+   sudo systemctl enable mjpg-streamer
+   
+   sudo systemctl start mjpg-streamer
+   
+   sudo reboot
+
+<br/>
+
+- **You can see the camera video in Website on PC**
+
+     http://<raspberry pi wifi address>
+     
+<br/>
+
+<img src="https://github.com/user-attachments/assets/e9f3a5fb-403b-48a2-8bf2-5143b5beb6e8" width="500">
+
+<br/>
+
+- **Stop  mjpg-streamer service** 
+
+#####  for stop
+
+     sudo systemctl stop mjpg-streamer
+
+#####  for disalbe if you need
+
+     sudo systemctl disable mjpg-streamer
+
+<br/>
+
+### 7) AP Mode to STA or  STA to AP Mode
+
+- **AT Mode**
+
+    sudo  /usr/local/bin/switch_wifi_mode.sh  AP  my_custom_SSID
+
+- **STA**
+
+    sudo  /usr/local/bin/switch_wifi_mode.sh  STA
+
+
