@@ -28,7 +28,7 @@
 
 <br/><br/>
 
-<img src="https://github.com/user-attachments/assets/73bd1daa-2f9d-40b4-bc3f-28a355acc87f" width="500">
+<img src="https://github.com/user-attachments/assets/cda9a45c-2f98-45d3-b3b6-9c2ba314539b" width="500">
 
 <br/><br/>
 
