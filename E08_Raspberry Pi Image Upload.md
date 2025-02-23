@@ -1,13 +1,32 @@
+# 1. Upload the Raspberry Pi image to SD Card
 
-## 1. Upload the Raspberry Pi image to SD Card
+### 1) SD Card Format
+  
+-  **Download Format Program (for Window and Mac)**
 
-### 1) Install Raspberry Pi Imager 
+   https://www.sdcard.org/downloads/formatter/
+
+<br/><br/>
+
+<img src="https://github.com/user-attachments/assets/ae597e88-2d88-4e03-9a48-f9a8e278eb83"  width="500">
+
+<br/>  
+
+<img src="https://github.com/user-attachments/assets/2e7de94a-ed19-4117-8b05-72f53f65dcf1" width="800">
+
+<br/><br/>
+
+<img src="https://github.com/user-attachments/assets/fc95b894-46af-4fef-96e7-bffe7f034f39"  width="400">
+
+<br/><br/>
+
+### 2) Install Raspberry Pi Imager 
      
         https://www.raspberrypi.com/software/
 
 <br/>
 
-### 2) Open the Raspberry Pi imager
+### 3) Open the Raspberry Pi imager
 
 <br/>
 
@@ -15,7 +34,7 @@
 
 <br/>
 
-### 3) chose Raspberry Pi Device 
+### 4) chose Raspberry Pi Device 
 
 <br/>
 
@@ -23,7 +42,7 @@
 
 <br/>
 
-### 4) Chose Raspberry Pi OS  (32bit Lite Bullseye)
+### 5) Chose Raspberry Pi OS  (32bit Lite Bullseye)
 
 <br/>
 
@@ -31,14 +50,14 @@
 
 <br/>
 
-### 5) Chose SD Card
+### 6) Chose SD Card
 <br/>
 
 ![image](https://github.com/user-attachments/assets/c6fc4541-b942-458b-849f-fecb9c68d80a)
 
 <br/>
 
-### 6) Click Next Button and then Edit Settings
+### 7) Click Next Button and then Edit Settings
 <br/>
 
 ![image](https://github.com/user-attachments/assets/ce82bddf-c6f1-46c3-b6b0-94cb20308ad9)
@@ -57,7 +76,7 @@
 
 <br/>
 
-### 7) Write
+### 8) Write
 <br/>
 
 ![image](https://github.com/user-attachments/assets/a032f216-b661-4ef1-b360-e21cd62a258d)
@@ -72,13 +91,12 @@
 
 <br/>
 
-### 8) For more information, please check this link
+### 9) For more information, please check this link
 <br/>
 
 https://www.raspberrypi.com/documentation/computers/getting-started.html
 
 <br/>
-
 
 
 
