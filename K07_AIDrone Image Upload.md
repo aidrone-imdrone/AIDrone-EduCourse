@@ -64,7 +64,7 @@
 
 - **You can see the camera video in Website on PC**
 
-     http://<raspberry pi wifi address>
+     http://<raspberry_pi_wifi_address>
      
 <br/>
 
