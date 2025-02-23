@@ -32,3 +32,13 @@
 
 <br/><br/>
 
+### 3) Download  AIDrone Image
+
+
+
+### 4) AIDrone Image's  ID and Password
+
+     ID :  aidrone
+     
+     passwd :  1234
+
