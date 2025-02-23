@@ -24,11 +24,11 @@
 
 <br/>
 
-<img src="https://github.com/user-attachments/assets/2c61b0d3-c712-4de4-84a3-9451225d83f6" width="500">
+<img src="https://github.com/user-attachments/assets/2c61b0d3-c712-4de4-84a3-9451225d83f6" width="700">
 
 <br/><br/>
 
-<img src="https://github.com/user-attachments/assets/cda9a45c-2f98-45d3-b3b6-9c2ba314539b" width="500">
+<img src="https://github.com/user-attachments/assets/cda9a45c-2f98-45d3-b3b6-9c2ba314539b" width="700">
 
 <br/><br/>
 
