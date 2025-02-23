@@ -6,7 +6,7 @@
 
    https://www.sdcard.org/downloads/formatter/
 
-<br/><br/>
+<br/>
 
 <img src="https://github.com/user-attachments/assets/ae597e88-2d88-4e03-9a48-f9a8e278eb83"  width="500">
 
@@ -14,7 +14,7 @@
 
 <img src="https://github.com/user-attachments/assets/2e7de94a-ed19-4117-8b05-72f53f65dcf1" width="800">
 
-<br/><br/>
+<br/>
 
 <img src="https://github.com/user-attachments/assets/fc95b894-46af-4fef-96e7-bffe7f034f39"  width="400">
 
