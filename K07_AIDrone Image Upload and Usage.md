@@ -82,16 +82,16 @@
 
      sudo systemctl disable mjpg-streamer
 
-<br/><br/>
+<br/>
 
 ### 7) AP Mode to STA or  STA to AP Mode
 
 - **AT Mode**
 
-    sudo  /usr/local/bin/switch_wifi_mode.sh  AP  my_custom_SSID
+    sudo   /usr/local/bin/switch_wifi_mode.sh   AP   my_custom_SSID
 
 - **STA**
 
-    sudo  /usr/local/bin/switch_wifi_mode.sh  STA
+    sudo   /usr/local/bin/switch_wifi_mode.sh   STA
 
 
