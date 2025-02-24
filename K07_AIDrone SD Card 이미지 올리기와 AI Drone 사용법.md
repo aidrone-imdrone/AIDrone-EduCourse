@@ -110,7 +110,7 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 
 <br/>
 
-### 8) AP Mode to STA or  STA to AP Mode
+### 8) AP Mode to STA or  STA to AP Mode  (Basic setup is AP Mode)
 
 <br/>
 
