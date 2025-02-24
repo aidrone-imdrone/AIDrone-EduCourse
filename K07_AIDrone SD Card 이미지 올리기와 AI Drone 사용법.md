@@ -46,7 +46,7 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 
 <br/><br/>
 
-### 4) Connect your PC or laptop's Wi-Fi to AIDrone (Using CMD)
+### 4)  PC 또는 노트북에서 AIDrone Wi-Fi 연결 (CMD 창에서)
 
 <br/>
 
@@ -64,7 +64,7 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 
 <br/><br/>
 
-### 5) AIDrone Image's  ID and Password (for Futty)
+### 5)  AIDrone 라즈베리파이의 ID와  비번
 
      ID :  aidrone
      
@@ -80,7 +80,7 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 
 <br/><br/>
 
-### 6) Start  mjpg-streamer service 
+### 6) mjpg-streamer 서비스 시작하기 (영상 스트리밍)
 
 <br/>
 
@@ -92,7 +92,7 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 
 <br/>
 
-- **You can see the camera video in Website on PC**
+- **PC에서 영상 확인하기**
 
      http://<raspberry_pi_wifi_address>
      
@@ -102,30 +102,77 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 
 <br/><br/>
 
-### 7) Stop  mjpg-streamer service
+### 7) mjpg-streamer 서비스 정지
 
-#####  for stop
+#####  멈춤 (다시 라즈베리파이 시작하면 서비스 계속)
 
      sudo systemctl stop mjpg-streamer
 
-#####  for disalbe if you need
+#####  라즈베리파이를 다시 시작해도 서비스 멈추기 
 
      sudo systemctl disable mjpg-streamer
 
 <br/>
 
-### 8) AP Mode to STA or  STA to AP Mode  (Basic setup is AP Mode)
+### 8) AIDrone의 Wi-Fi 모드는 AP 모드임 (주소는 192.168.4.1)
 
 <br/>
 
-- **AT Mode**
+- **AT Mode : AIDrone 자체가 라우터가 됨. 여러 드론이 있을 경우 각각 SSID 수정하세요, 단 주소는 같음)**
 
     sudo   /usr/local/bin/switch_wifi_mode.sh   AP   my_custom_SSID
 
 <br/>
 
-- **STA**
+- **STA Mode: STA 모드로 변경 후에는 라즈베리파이 WI-FI 설정을 해야 함.  공간에 있는 라우터의 SSID와 비번을 입력하세요**
 
     sudo   /usr/local/bin/switch_wifi_mode.sh   STA
+
+  <br/>
+
+      <img src="https://github.com/user-attachments/assets/53dbb7fc-d563-4959-8741-557a0ca000f7" width="500">
+
+  <br/>
+
+      <img src="https://github.com/user-attachments/assets/0ce9aba6-6e03-4913-9a39-4ff488fa4cff"  width="500">
+
+  <br/>
+
+      <img src="https://github.com/user-attachments/assets/80d621d7-c3fd-4118-8a1b-9355ca942b25" width="500">
+
+  <br/>
+
+      <img src="https://github.com/user-attachments/assets/b441a2ee-6e82-4570-a26b-6ba026a7c3fd" width="500">
+
+  <br/>
+
+      <img src="https://github.com/user-attachments/assets/8cc4f4b6-2598-44e2-928e-f88ca2503ed1" width="500">
+
+  <br/>
+
+      <img src="https://github.com/user-attachments/assets/87247d24-7484-444e-9a10-ee80756c5d1e"  width="500">
+
+  <br/>
+
+  - **Finish Enter**
+
+       <img src="https://github.com/user-attachments/assets/058aed39-cf0b-4332-93da-2f17d000c49e" width="500">
+       
+ <br/>
+ 
+  - **reboot**
+
+       <img src="https://github.com/user-attachments/assets/ecf387c8-c96b-4130-b0a2-04c515ce704d" width="500">
+
+<br/>
+
+       <img src="https://github.com/user-attachments/assets/96821cb0-264e-40c5-8ca8-3c4c77125328" width="500">
+
+
+
+
+
+
+  
 
 
