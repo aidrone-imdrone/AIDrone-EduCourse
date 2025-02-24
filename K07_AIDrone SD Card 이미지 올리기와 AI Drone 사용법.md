@@ -46,7 +46,7 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 
 <br/>
 
-<img src="https://github.com/user-attachments/assets/c5da5e4a-faec-4688-a49b-52d0ab133b1d"  width="500">
+<img src="https://github.com/user-attachments/assets/c5da5e4a-faec-4688-a49b-52d0ab133b1d"  width="400">
 
 <br/>
 
