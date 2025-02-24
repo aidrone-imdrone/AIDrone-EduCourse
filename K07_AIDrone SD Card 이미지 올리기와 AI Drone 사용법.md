@@ -30,15 +30,19 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 
 ### 3) 라즈베리파이 Imager를 다운받아서 SD Card에 업로드하기
 
-     https://win32diskimager.org/
+         https://www.raspberrypi.com/software/
 
 <br/>
 
-<img src="https://github.com/user-attachments/assets/2c61b0d3-c712-4de4-84a3-9451225d83f6" width="700">
+<img src="https://github.com/user-attachments/assets/8ef0861a-491e-4faf-959f-32154c948d87" width="700">
 
 <br/><br/>
 
-<img src="https://github.com/user-attachments/assets/cda9a45c-2f98-45d3-b3b6-9c2ba314539b" width="700">
+<img src="https://github.com/user-attachments/assets/b4337fc4-bd0f-4404-aef3-0cfe27e5fad2" width="700">
+
+<br/><br/>
+
+<img src="https://github.com/user-attachments/assets/eadefe73-6202-42ca-9a17-943aa502b4b1" width="500">
 
 <br/><br/>
 
