@@ -48,9 +48,15 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 
 <img src="https://github.com/user-attachments/assets/c5da5e4a-faec-4688-a49b-52d0ab133b1d"  width="400">
 
+<br/><br/>
+
+<img src="https://github.com/user-attachments/assets/272a299c-92cf-45f5-bf4e-d9323c63360f"  width="500">
+
 <br/>
 
-<img src="https://github.com/user-attachments/assets/272a299c-92cf-45f5-bf4e-d9323c63360f"  width="400">
+- ** 1 :  ssh   aidrone@192.168.4.1**
+- ** 2 :  yes**
+- ** 3 :  1234**
 
 <br/><br/>
 
