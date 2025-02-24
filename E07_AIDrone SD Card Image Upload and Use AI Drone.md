@@ -1,6 +1,16 @@
 # 1. SD Card Format
+
+### 1) Download  AIDrone Image
+
+<br/>
+
+https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive_link
+
+- **Download the file and extract the compressed archive**
   
-### 1) Download Formatter For SD Card Format
+<br/>
+ 
+### 2) Download Formatter For SD Card Format
 
    https://www.sdcard.org/downloads/formatter/
 
@@ -18,7 +28,7 @@
 
 <br/><br/>
 
-### 2) Download  Win32DiskImager for Upload Image to SD Card.
+### 3) Download  Win32DiskImager for Upload Image to SD Card.
 
      https://win32diskimager.org/
 
@@ -32,15 +42,25 @@
 
 <br/><br/>
 
-### 3) Download  AIDrone Image
+### 4) Connect your PC or laptop's Wi-Fi to AIDrone (Using CMD)
 
 <br/>
 
-https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive_link
+<img src="https://github.com/user-attachments/assets/c5da5e4a-faec-4688-a49b-52d0ab133b1d"  width="400">
+
+<br/><br/>
+
+<img src="https://github.com/user-attachments/assets/272a299c-92cf-45f5-bf4e-d9323c63360f"  width="800">
 
 <br/>
 
-### 4) AIDrone Image's  ID and Password
+- **1 :  ssh    aidrone@192.168.4.1**
+- **2 :  yes**
+- **3 :  aidrone password  1234**
+
+<br/><br/>
+
+### 5) AIDrone Image's  ID and Password (for Futty)
 
      ID :  aidrone
      
@@ -48,13 +68,13 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 
 <br/>
 
-### 5) Connect AIDrone with PC Putty
+<img src="https://github.com/user-attachments/assets/ee786acc-ad38-4f8e-b5eb-0e8d84972c47" width="500">
 
 <br/>
 
- 
+<img src="https://github.com/user-attachments/assets/3e2de486-9c8a-4747-95ed-3f31ec1bcbec"  width="500">
 
-<br/>
+<br/><br/>
 
 ### 6) Start  mjpg-streamer service 
 
@@ -78,7 +98,7 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 
 <br/><br/>
 
-- **Stop  mjpg-streamer service** 
+### 7) Stop  mjpg-streamer service
 
 #####  for stop
 
@@ -90,7 +110,7 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 
 <br/>
 
-### 7) AP Mode to STA or  STA to AP Mode
+### 8) AP Mode to STA or  STA to AP Mode
 
 <br/>
 
@@ -103,6 +123,5 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 - **STA**
 
     sudo   /usr/local/bin/switch_wifi_mode.sh   STA
-
 
 
