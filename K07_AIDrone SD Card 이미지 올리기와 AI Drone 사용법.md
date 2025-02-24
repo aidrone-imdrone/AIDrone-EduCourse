@@ -1,16 +1,16 @@
-# 1. SD Card Format
+# 1. AIDrone의 라즈베리파이 Zero 2W 이미지 다운로드 및  SD Card에 올리기
 
-### 1) Download  AIDrone Image
+### 1) AIDrone의 라즈베리파이 Zero 2W 이미지 다운로드 
 
 <br/>
 
 https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive_link
 
-- **Download the file and extract the compressed archive**
+- **압축 파일을 다운로드 받은 후 압축을 푼다**
   
 <br/>
  
-### 2) Download Formatter For SD Card Format
+### 2) SD Card 포멧을 위해서 포멧터 프로그램 다운로드 
 
    https://www.sdcard.org/downloads/formatter/
 
@@ -28,7 +28,7 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 
 <br/><br/>
 
-### 3) Download  Win32DiskImager for Upload Image to SD Card.
+### 3) 라즈베리파이 Imager를 다운받아서 SD Card에 업로드하기
 
      https://win32diskimager.org/
 
