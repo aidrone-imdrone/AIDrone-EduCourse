@@ -116,13 +116,13 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 
 - **AT Mode**
 
-    sudo   /usr/local/bin/switch_wifi_mode.sh   AP   my_custom_SSID
+    sudo   /usr/local/bin/switch_wifi_mode.sh      AP       my_custom_SSID
 
 <br/>
 
 - **STA**
 
-    sudo   /usr/local/bin/switch_wifi_mode.sh   STA
+    sudo   /usr/local/bin/switch_wifi_mode.sh      STA
 
 
     <br/>
