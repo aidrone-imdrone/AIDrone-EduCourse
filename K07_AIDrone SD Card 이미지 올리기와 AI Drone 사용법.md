@@ -50,6 +50,10 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 
 <br/>
 
+<img src="https://github.com/user-attachments/assets/272a299c-92cf-45f5-bf4e-d9323c63360f"  width="400">
+
+<br/><br/>
+
 ### 4) AIDrone Image's  ID and Password (for Futty)
 
      ID :  aidrone
