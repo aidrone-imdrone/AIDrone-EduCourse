@@ -28,7 +28,7 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 
 <br/><br/>
 
-### 2) Download  Win32DiskImager for Upload Image to SD Card.
+### 3) Download  Win32DiskImager for Upload Image to SD Card.
 
      https://win32diskimager.org/
 
@@ -42,9 +42,15 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 
 <br/><br/>
 
+### 4) Connect your PC or laptop's Wi-Fi to AIDrone 
 
+<br/>
 
-### 4) AIDrone Image's  ID and Password
+<img src="https://github.com/user-attachments/assets/c5da5e4a-faec-4688-a49b-52d0ab133b1d"  width="500">
+
+<br/>
+
+### 4) AIDrone Image's  ID and Password (for Futty)
 
      ID :  aidrone
      
@@ -52,12 +58,23 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 
 <br/>
 
-### 5) Connect AIDrone with PC Putty
+### 5) Open the Command Prompt(CMD) and connect via SSH
+
+- **
+<br/>
 
 
 <br/>
 
-### 6) Start  mjpg-streamer service 
+
+### 6) Set up your personal Wi-Fi connection
+
+<br/>
+
+
+<br/>
+
+### 7) Start  mjpg-streamer service 
 
 <br/>
 
@@ -79,7 +96,7 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 
 <br/><br/>
 
-- **Stop  mjpg-streamer service** 
+### 8) Stop  mjpg-streamer service
 
 #####  for stop
 
@@ -91,7 +108,7 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 
 <br/>
 
-### 7) AP Mode to STA or  STA to AP Mode
+### 9) AP Mode to STA or  STA to AP Mode
 
 <br/>
 
