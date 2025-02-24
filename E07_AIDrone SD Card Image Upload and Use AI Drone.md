@@ -125,3 +125,46 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
     sudo   /usr/local/bin/switch_wifi_mode.sh   STA
 
 
+    <br/>
+
+      <img src="https://github.com/user-attachments/assets/53dbb7fc-d563-4959-8741-557a0ca000f7" width="500">
+
+  <br/>
+
+      <img src="https://github.com/user-attachments/assets/0ce9aba6-6e03-4913-9a39-4ff488fa4cff"  width="500">
+
+  <br/>
+
+      <img src="https://github.com/user-attachments/assets/80d621d7-c3fd-4118-8a1b-9355ca942b25" width="500">
+
+  <br/>
+
+      <img src="https://github.com/user-attachments/assets/b441a2ee-6e82-4570-a26b-6ba026a7c3fd" width="500">
+
+  <br/>
+
+      <img src="https://github.com/user-attachments/assets/8cc4f4b6-2598-44e2-928e-f88ca2503ed1" width="500">
+
+  <br/>
+
+      <img src="https://github.com/user-attachments/assets/87247d24-7484-444e-9a10-ee80756c5d1e"  width="500">
+
+  <br/>
+
+  - **Finish Enter**
+
+       <img src="https://github.com/user-attachments/assets/058aed39-cf0b-4332-93da-2f17d000c49e" width="500">
+       
+ <br/>
+ 
+  - **reboot**
+
+       <img src="https://github.com/user-attachments/assets/ecf387c8-c96b-4130-b0a2-04c515ce704d" width="500">
+
+<br/>
+
+       <img src="https://github.com/user-attachments/assets/96821cb0-264e-40c5-8ca8-3c4c77125328" width="500">
+
+
+
+
