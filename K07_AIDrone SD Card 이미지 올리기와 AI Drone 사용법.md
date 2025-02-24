@@ -1,6 +1,16 @@
 # 1. SD Card Format
+
+### 1) Download  AIDrone Image
+
+<br/>
+
+https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive_link
+
+- **Download the file and extract the compressed archive**
   
-### 1) Download Formatter For SD Card Format
+<br/>
+ 
+### 2) Download Formatter For SD Card Format
 
    https://www.sdcard.org/downloads/formatter/
 
@@ -32,13 +42,7 @@
 
 <br/><br/>
 
-### 3) Download  AIDrone Image
 
-<br/>
-
-https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive_link
-
-<br/>
 
 ### 4) AIDrone Image's  ID and Password
 
