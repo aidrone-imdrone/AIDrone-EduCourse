@@ -66,6 +66,14 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
      
      passwd :  1234
 
+<br/>
+
+<img src="https://github.com/user-attachments/assets/ee786acc-ad38-4f8e-b5eb-0e8d84972c47" width="500">
+
+<br/>
+
+<img src="https://github.com/user-attachments/assets/3e2de486-9c8a-4747-95ed-3f31ec1bcbec"  width="500">
+
 <br/><br/>
 
 ### 5) Open the Command Prompt(CMD) and connect via SSH
