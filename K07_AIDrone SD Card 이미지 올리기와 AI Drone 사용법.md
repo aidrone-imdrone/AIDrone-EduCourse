@@ -60,7 +60,7 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 
 <br/><br/>
 
-### 4) AIDrone Image's  ID and Password (for Futty)
+### 5) AIDrone Image's  ID and Password (for Futty)
 
      ID :  aidrone
      
@@ -76,23 +76,7 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 
 <br/><br/>
 
-### 5) Open the Command Prompt(CMD) and connect via SSH
-
-- **
-<br/>
-
-
-<br/>
-
-
-### 6) Set up your personal Wi-Fi connection
-
-<br/>
-
-
-<br/>
-
-### 7) Start  mjpg-streamer service 
+### 6) Start  mjpg-streamer service 
 
 <br/>
 
@@ -114,7 +98,7 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 
 <br/><br/>
 
-### 8) Stop  mjpg-streamer service
+### 7) Stop  mjpg-streamer service
 
 #####  for stop
 
@@ -126,7 +110,7 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 
 <br/>
 
-### 9) AP Mode to STA or  STA to AP Mode
+### 8) AP Mode to STA or  STA to AP Mode
 
 <br/>
 
