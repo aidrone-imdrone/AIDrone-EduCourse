@@ -10,7 +10,7 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
   
 <br/>
  
-### 2) SD Card 포멧을 위해서 포멧터 프로그램 다운로드 
+### 2) SD Card 포멧을 위해서 포멧 프로그램 다운로드 
 
    https://www.sdcard.org/downloads/formatter/
 
