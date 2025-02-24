@@ -42,7 +42,7 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 
 <br/><br/>
 
-<img src="https://github.com/user-attachments/assets/eadefe73-6202-42ca-9a17-943aa502b4b1" width="500">
+<img src="https://github.com/user-attachments/assets/eadefe73-6202-42ca-9a17-943aa502b4b1" width="700">
 
 <br/><br/>
 
