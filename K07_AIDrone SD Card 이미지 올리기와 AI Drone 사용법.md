@@ -42,7 +42,7 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 
 <br/><br/>
 
-### 4) Connect your PC or laptop's Wi-Fi to AIDrone 
+### 4) Connect your PC or laptop's Wi-Fi to AIDrone (Using CMD)
 
 <br/>
 
