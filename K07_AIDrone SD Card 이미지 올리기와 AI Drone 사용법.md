@@ -50,11 +50,11 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 
 <br/><br/>
 
-<img src="https://github.com/user-attachments/assets/272a299c-92cf-45f5-bf4e-d9323c63360f"  width="600">
+<img src="https://github.com/user-attachments/assets/272a299c-92cf-45f5-bf4e-d9323c63360f"  width="800">
 
 <br/>
 
-- **1 :  ssh   aidrone@192.168.4.1**
+- **1 :  ssh    aidrone@192.168.4.1**
 - **2 :  yes**
 - **3 :  aidrone password  1234**
 
