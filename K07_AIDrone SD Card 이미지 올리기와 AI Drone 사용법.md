@@ -118,7 +118,7 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 
 <br/>
 
-- **AT Mode : AIDrone 자체가 라우터가 됨. 여러 드론이 있을 경우 각각 SSID 수정하세요, 단 주소는 같음)**
+- **AT Mode : AIDrone 자체가 라우터가 됨. 여러 드론이 있을 경우 각각 SSID 수정하세요, 단 주소는 같음.  WI-FI Password : 1234567890)**
 
 <pre>
    sudo /usr/local/bin/switch_wifi_mode.sh   AP    my_custom_SSID  
@@ -129,7 +129,7 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 - **STA Mode: STA 모드로 변경 후에는 라즈베리파이 WI-FI 설정을 해야 함.  공간에 있는 라우터의 SSID와 비번을 입력하세요**
 
 <pre>
-      sudo   /usr/local/bin/switch_wifi_mode.sh   STA  
+  sudo   /usr/local/bin/switch_wifi_mode.sh   STA  
 </pre>    
 
  <br/><br/>
