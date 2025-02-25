@@ -138,7 +138,7 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 
 <br/><br/>
 
-<img src="https://github.com/user-attachments/assets/b441a2ee-6e82-4570-a26b-6ba026a7c3fd" width="500">
+<img src="https://github.com/user-attachments/assets/c153b9d4-f225-41f9-ac74-a2dbf2510e26" width="500">
 
 <br/><br/>
 
