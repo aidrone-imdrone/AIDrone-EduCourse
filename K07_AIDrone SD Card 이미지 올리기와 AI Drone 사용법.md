@@ -146,10 +146,6 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 
 <br/><br/>
 
-<img src="https://github.com/user-attachments/assets/8cc4f4b6-2598-44e2-928e-f88ca2503ed1" width="500">
-
-<br/><br/>
-
 <img src="https://github.com/user-attachments/assets/87247d24-7484-444e-9a10-ee80756c5d1e"  width="500">
 
 <br/><br/>
