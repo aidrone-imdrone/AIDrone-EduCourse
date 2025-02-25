@@ -54,6 +54,10 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 
 <br/><br/>
 
+-**Wi-Fi Password : 1234567890**
+
+<br/><br/>
+
 <img src="https://github.com/user-attachments/assets/272a299c-92cf-45f5-bf4e-d9323c63360f"  width="800">
 
 <br/>
