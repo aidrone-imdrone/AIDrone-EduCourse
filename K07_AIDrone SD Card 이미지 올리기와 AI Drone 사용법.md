@@ -118,7 +118,7 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 
 <br/>
 
-- **AT Mode : AIDrone 자체가 라우터가 됨. 여러 드론이 있을 경우 각각 SSID 수정하세요, 단 주소는 같음.  WI-FI Password : 1234567890)**
+- **AT Mode : AIDrone 자체가 라우터가 됨. 여러 드론이 있을 경우 각각 SSID 수정하세요, 단 주소는 같음.    WI-FI Password : 1234567890)**
 
 <pre>
    sudo /usr/local/bin/switch_wifi_mode.sh   AP    my_custom_SSID  
