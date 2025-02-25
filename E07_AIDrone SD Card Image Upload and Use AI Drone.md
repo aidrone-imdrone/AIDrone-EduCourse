@@ -114,7 +114,7 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 
 <br/>
 
-- **AT Mode: The AIDrone itself becomes a router. If there are multiple drones, modify each SSID separately. However, the address remains the same.     Wi-Fi Password : 1234567890**
+- **AT Mode: The AIDrone itself becomes a router. If there are multiple drones, modify each SSID separately. However, the address remains the same.**
 
 <pre>
   sudo   /usr/local/bin/switch_wifi_mode.sh      AP       my_custom_SSID
