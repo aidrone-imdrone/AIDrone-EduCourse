@@ -116,13 +116,17 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 
 - **AT Mode**
 
-    sudo   /usr/local/bin/switch_wifi_mode.sh      AP       my_custom_SSID
+<pre>
+  sudo   /usr/local/bin/switch_wifi_mode.sh      AP       my_custom_SSID
+</pre>   
 
 <br/>
 
 - **STA Mode: After switching to STA mode, you must configure the Raspberry Pi's Wi-Fi settings. Enter the SSID and password of the router available in your location.**
 
-    sudo   /usr/local/bin/switch_wifi_mode.sh      STA
+<pre>
+  sudo   /usr/local/bin/switch_wifi_mode.sh     STA
+</pre>    
 
 <br/><br/>
 
