@@ -187,6 +187,12 @@
 
 ### RNN (Recurrent Neural Networks)
 
+<br/>
+
+<img src="https://github.com/user-attachments/assets/7dd465b0-4c99-4b39-bc83-c105d133416d" width="1000">
+
+<br/><br/>
+
 **Characteristics**:
 - Suitable for sequential data
 - Maintains internal states for temporal information storage
