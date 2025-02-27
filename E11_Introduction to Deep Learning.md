@@ -64,6 +64,10 @@
 
 ## 2. Fundamentals of Neural Networks
 
+<img src="https://github.com/user-attachments/assets/a2988f40-4629-4925-8437-ba47ff252c00" width="800">
+
+<br/><br/>
+
 ### Neurons and Perceptron Model
 
 **Components of an Artificial Neuron**:
