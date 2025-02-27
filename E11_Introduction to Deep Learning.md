@@ -233,44 +233,199 @@
 
 ---
 
-## 5. Hands-on: Simple Image Classification
+## 5. Practice - Simple Image Classification
 
-**Load and preprocess MNIST dataset**:
+### Data Preparation and Preprocessing
+
+**Loading and Preprocessing the MNIST Dataset**:
 ```python
 import tensorflow as tf
 from tensorflow.keras.datasets import mnist
+import numpy as np
+import matplotlib.pyplot as plt
 
+# Load data
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
 
+# Normalize data (scale to 0-1 range)
 x_train = x_train.astype('float32') / 255.0
 x_test = x_test.astype('float32') / 255.0
 
+# Dimension transformation (for CNN input)
 x_train = x_train.reshape(-1, 28, 28, 1)
 x_test = x_test.reshape(-1, 28, 28, 1)
 
+# Label one-hot encoding
 y_train = tf.keras.utils.to_categorical(y_train, 10)
 y_test = tf.keras.utils.to_categorical(y_test, 10)
+
+# Check data
+print(f"Training data shape: {x_train.shape}")
+print(f"Testing data shape: {x_test.shape}")
 ```
 
-**Model Implementation**:
+### Model Implementation and Training
+
+**CNN Model Implementation**:
 ```python
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
 
+# Model configuration
 model = Sequential([
-    Conv2D(32, kernel_size=(3, 3), activation='relu', input_shape=(28, 28, 1)),
-    MaxPooling2D(pool_size=(2, 2)),
-    Conv2D(64, kernel_size=(3, 3), activation='relu'),
-    MaxPooling2D(pool_size=(2, 2)),
-    Flatten(),
-    Dense(128, activation='relu'),
-    Dropout(0.5),
-    Dense(10, activation='softmax')
+   # First convolutional layer
+   Conv2D(32, kernel_size=(3, 3), activation='relu', input_shape=(28, 28, 1)),
+   MaxPooling2D(pool_size=(2, 2)),
+
+   # Second convolutional layer
+   Conv2D(64, kernel_size=(3, 3), activation='relu'),
+   MaxPooling2D(pool_size=(2, 2)),
+
+   # Convert feature maps to 1D vectors
+   Flatten(),
+
+   # Fully-connected layer
+   Dense(128, activation='relu'),
+   Dropout(0.5), # Prevent overfitting
+
+   # Output layer (10 classes)
+   Dense(10, activation='softmax')
 ])
 
-model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+# Model summary
+model.summary()
+
+# Model Compile
+model.compile(
+    optimizer='adam',
+    loss='categorical_crossentropy',
+    metrics=['accuracy']
+)
+```
+
+**Model Learning**:
+```python
+# Model Training
+history = model.fit(
+    x_train, y_train,
+    batch_size=128,
+    epochs=10,
+    validation_split=0.1,
+    verbose=1
+)
+
+# Visualizing the learning process
+plt.figure(figsize=(12, 4))
+
+# Accuracy graph
+plt.subplot(1, 2, 1)
+plt.plot(history.history['accuracy'], label='train')
+plt.plot(history.history['val_accuracy'], label='validation')
+plt.title('Model Accuracy')
+plt.xlabel('Epoch')
+plt.ylabel('Accuracy')
+plt.legend()
+
+# Loss graph
+plt.subplot(1, 2, 2)
+plt.plot(history.history['loss'], label='train')
+plt.plot(history.history['val_loss'], label='validation')
+plt.title('Model Loss')
+plt.xlabel('Epoch')
+plt.ylabel('Loss')
+plt.legend()
+
+plt.tight_layout()
+plt.show()
+```
+
+### Evaluation and Prediction
+
+**Model Evaluation**:
+```python
+# Evaluate the model on the test set
+test_loss, test_acc = model.evaluate(x_test, y_test)
+print(f"Test accuracy: {test_acc:.4f}")
+print(f"Test loss: {test_loss:.4f}")
+```
+
+**Predictions and Visualization**:
+```python
+# Make predictions
+predictions = model.predict(x_test)
+predicted_classes = np.argmax(predictions, axis=1)
+true_classes = np.argmax(y_test, axis=1)
+
+# Visualize some prediction results
+plt.figure(figsize=(12, 8))
+for i in range(9):
+    plt.subplot(3, 3, i+1)
+    plt.imshow(x_test[i].reshape(28, 28), cmap='gray')
+    
+    if predicted_classes[i] == true_classes[i]:
+        color = 'green'
+    else:
+        color = 'red'
+    
+    plt.title(f"예측: {predicted_classes[i]}, 실제: {true_classes[i]}", color=color)
+    plt.axis('off')
+
+plt.tight_layout()
+plt.show()
+
+# Visualizing confusion matrix
+from sklearn.metrics import confusion_matrix
+import seaborn as sns
+
+cm = confusion_matrix(true_classes, predicted_classes)
+plt.figure(figsize=(10, 8))
+sns.heatmap(cm, annot=True, fmt='d', cmap='Blues')
+plt.title('Confusion Matrix')
+plt.xlabel('Predicted')
+plt.ylabel('True')
+plt.show()
 ```
 
 ---
 
-This translation provides a structured English version of the Deep Learning Basics guide.
+## Considerations for Deep Learning Training
+
+### Overfitting Prevention Techniques
+- Data Augmentation
+- Dropout
+- Batch Normalization
+- Early Stopping
+- L1/L2 Regularization
+
+### Hyperparameter Tuning
+- Learning Rate
+- Batch Size
+- Number of Hidden Layers and Number of Neurons
+- Activation Function Selection
+- Optimization Algorithm Selection
+
+### Considerations for Practical Applications
+- Balance between Model Complexity and Data Size
+- Computing Resource Requirements
+- Tradeoffs between Inference Time and Accuracy
+- Model Interpretability
+- Continuous Monitoring and Updates
+
+---
+
+## References and Recommended Reading
+
+### Online Courses
+- Coursera: Deep Learning Specialization (Andrew Ng)
+- Fast.ai: Practical Deep Learning for Coders
+- Stanford CS231n: Convolutional Neural Networks for Visual Recognition
+
+### books
+- "Deep Learning" by Ian Goodfellow, Yoshua Bengio, Aaron Courville
+- "Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow" by Aurélien Géron
+- "Deep Learning with Python" by François Chollet
+
+### Frameworks and Libraries
+- TensorFlow: https://www.tensorflow.org/
+- PyTorch: https://pytorch.org/
+- Keras: https://keras.io/
