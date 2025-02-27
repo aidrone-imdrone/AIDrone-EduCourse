@@ -31,6 +31,8 @@
 
 ## 1. Overview of Deep Learning
 
+<br/>
+
 <img src="https://github.com/user-attachments/assets/fcadf4b2-aa60-4f1a-9dd7-0c7e34f8e3a0" width="700">
 
 <br/><br/>
@@ -64,6 +66,8 @@
 
 ## 2. Fundamentals of Neural Networks
 
+<br/>
+
 <img src="https://github.com/user-attachments/assets/a2988f40-4629-4925-8437-ba47ff252c00" width="800">
 
 <br/><br/>
@@ -82,11 +86,15 @@
 - Compute error (Actual - Predicted)
 - Update weights: w_new = w_old + α(Actual - Predicted) × Input
 
+<br/>
+
 <img src="https://github.com/user-attachments/assets/15e75733-2b62-413a-8557-75d262560549" width="800">
 
 <br/><br/>
 
 ### Activation Functions
+
+<br/>
 
 <img src="https://github.com/user-attachments/assets/77957e1f-e39d-433e-ac97-9066acc6ad8b" width="800">
 
@@ -113,6 +121,12 @@
    - Pros: Solves the Dying ReLU problem
 
 ### Feedforward Neural Networks
+
+<br/>
+
+<img src="https://github.com/user-attachments/assets/faa54ce3-18dc-44d7-9867-8b024aed0656" width="800">
+
+<br/><br/>
 
 - **Input Layer**: Feeds data into the network
 - **Hidden Layers**: Learn complex features (deeper layers enhance abstraction)
