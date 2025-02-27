@@ -180,6 +180,12 @@
 
 ### CNN (Convolutional Neural Networks)
 
+<br/>
+
+<img src="https://github.com/user-attachments/assets/e0d9dca5-cff3-4ac4-82b0-3f77b0649347" width="1000">
+
+<br/><br/>
+
 **Components**:
 - **Convolutional Layer**: Extracts features
 - **Pooling Layer**: Downsamples features
