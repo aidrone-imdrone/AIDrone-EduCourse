@@ -1,156 +1,222 @@
-# 📚 Deep Learning Basics Course
+# Deep Learning Basics
 
-## 📌 1. Introduction to Deep Learning
-### 1.1 Differences Between AI, Machine Learning, and Deep Learning
-- **Artificial Intelligence (AI)**: Computer systems that mimic human intelligence.
-- **Machine Learning (ML)**: Algorithms that learn from data.
-- **Deep Learning (DL)**: A subset of ML using deep neural networks.
+## Table of Contents
 
-### 1.2 History and Evolution of Deep Learning
-- **1957**: Perceptron model introduced.
-- **1980s**: Backpropagation algorithm developed.
-- **2012**: AlexNet won ImageNet competition, sparking a deep learning boom.
+1. **Overview of Deep Learning**
+   - Relationship between AI, Machine Learning, and Deep Learning
+   - History and Development of Deep Learning
+   - Major Applications of Deep Learning
 
-### 1.3 Applications of Deep Learning
-✅ Computer Vision (CV)  
-✅ Natural Language Processing (NLP)  
-✅ Autonomous Driving  
+2. **Fundamentals of Neural Networks**
+   - Neurons and Perceptron Model
+   - Activation Functions
+   - Feedforward Neural Networks
 
-### 1.4 Why Is Deep Learning Important?
-- **Big Data Growth**  
-- **Advancement in GPU Computing**  
-- **Efficient Learning Algorithms**  
+3. **Learning Principles of Deep Learning**
+   - Loss Functions
+   - Gradient Descent
+   - Backpropagation Algorithm
 
-🛠 **Hands-on: Implementing a simple perceptron model using NumPy**
+4. **Types of Deep Learning Models**
+   - CNN (Convolutional Neural Networks)
+   - RNN (Recurrent Neural Networks)
+   - Transformer Architecture
 
----
-
-## 📌 2. Fundamentals of Neural Networks
-### 2.1 Neurons and Perceptrons
-- **Neuron**: The fundamental unit of a neural network.
-- **Perceptron**: A simple linear classifier.
-
-### 2.2 Understanding Activation Functions
-✅ Sigmoid  
-✅ Tanh  
-✅ ReLU  
-
-### 2.3 Multi-layer Perceptron (MLP)
-- A neural network with hidden layers.
-- Capable of solving non-linear problems.
-
-### 2.4 Forward Propagation Process
-- Input → Weight Multiplication → Activation Function → Output
-
-🛠 **Hands-on: Implementing a simple neural network using Python + NumPy**
+5. **Hands-on: Simple Image Classification**
+   - Data Preparation and Preprocessing
+   - Model Implementation and Training
+   - Evaluation and Prediction
 
 ---
 
-## 📌 3. Backpropagation & Optimization
-### 3.1 Concept of Backpropagation
-- A method for adjusting weights to minimize error.
+## 1. Overview of Deep Learning
 
-### 3.2 Loss Functions and Cost Functions
-- Mean Squared Error (MSE), Cross-Entropy Loss, etc.
+### Relationship between AI, Machine Learning, and Deep Learning
 
-### 3.3 Gradient Descent Algorithm
-- Adjusts weights to minimize the loss.
+- **Artificial Intelligence (AI)**: The broad technology of mimicking human intelligence
+- **Machine Learning (ML)**: A subfield of AI that learns patterns from data
+- **Deep Learning (DL)**: A subset of machine learning using deep neural networks
 
-### 3.4 Optimization Techniques
-✅ SGD  
-✅ Adam  
-✅ RMSprop  
+### History and Development of Deep Learning
 
-🛠 **Hands-on: Training a simple neural network using NumPy**
+- 1943: McCulloch & Pitts propose artificial neuron models
+- 1957: Rosenblatt introduces the Perceptron algorithm
+- 1986: Development of the Backpropagation Algorithm
+- 2006: Hinton coins the term "Deep Learning" and introduces Deep Belief Networks
+- 2012: AlexNet wins the ImageNet competition, sparking the deep learning revolution
+- 2014-Present: Various architectural advancements (GANs, Transformers, etc.)
 
----
+### Major Applications of Deep Learning
 
-## 📌 4. Introduction to Deep Learning Frameworks
-### 4.1 TensorFlow vs PyTorch
-- **TensorFlow**: Developed by Google, suitable for large-scale models.
-- **PyTorch**: Research-focused, intuitive for experimentation.
-
-### 4.2 Setting Up Google Colab for Deep Learning
-- Using **free GPU resources**.
-
-### 4.3 Understanding Tensor Operations
-- How tensors work in PyTorch/TensorFlow.
-
-🛠 **Hands-on: Running basic PyTorch/TensorFlow code in Google Colab**
+- Computer Vision (Image Recognition, Object Detection)
+- Natural Language Processing (Machine Translation, Chatbots, Text Summarization)
+- Speech Recognition and Synthesis
+- Recommendation Systems
+- Game AI (AlphaGo, AlphaStar)
+- Autonomous Vehicles
+- Medical Diagnosis and Drug Development
 
 ---
 
-## 📌 5. Convolutional Neural Networks (CNN)
-### 5.1 Convolution Operation and Filters
-### 5.2 CNN Structure
-### 5.3 How CNNs Work in Image Recognition
-### 5.4 Famous CNN Models
-✅ LeNet  
-✅ AlexNet  
-✅ VGG  
-✅ ResNet  
+## 2. Fundamentals of Neural Networks
 
-🛠 **Hands-on: Implementing CNN for MNIST handwritten digit recognition**
+### Neurons and Perceptron Model
 
----
+**Components of an Artificial Neuron**:
+- Inputs (x₁, x₂, ..., xₙ)
+- Weights (w₁, w₂, ..., wₙ)
+- Bias (b)
+- Weighted sum: z = w₁x₁ + w₂x₂ + ... + wₙxₙ + b
+- Activation function: y = f(z)
 
-## 📌 6. Recurrent Neural Networks (RNN) and LSTM/GRU
-### 6.1 Concept and Necessity of RNN
-### 6.2 Limitations of RNN and Vanishing Gradient Problem
-### 6.3 Introduction to LSTM and GRU
-### 6.4 Applications in Natural Language Processing (NLP)
+**Perceptron Learning Method**:
+- Make predictions based on inputs
+- Compute error (Actual - Predicted)
+- Update weights: w_new = w_old + α(Actual - Predicted) × Input
 
-🛠 **Hands-on: Implementing a simple text generation model using LSTM**
+### Activation Functions
 
----
+**Common Activation Functions**:
 
-## 📌 7. Training and Tuning Deep Learning Models
-### 7.1 Overfitting and Solutions
-✅ Dropout  
-✅ Data Augmentation  
+1. **Sigmoid**: f(x) = 1 / (1 + e^(-x))
+   - Range: 0 to 1
+   - Pros: Interpretable as probability
+   - Cons: Vanishing gradient issue, slow computation
 
-### 7.2 Hyperparameter Tuning
-✅ Learning Rate  
-✅ Batch Size  
+2. **Tanh**: f(x) = (e^x - e^(-x)) / (e^x + e^(-x))
+   - Range: -1 to 1
+   - Pros: Zero-centered, larger gradient than Sigmoid
+   - Cons: Still suffers from vanishing gradients in deep networks
 
-### 7.3 Transfer Learning
-- Using pre-trained models for better performance.
+3. **ReLU**: f(x) = max(0, x)
+   - Range: 0 to ∞
+   - Pros: Efficient computation, reduces vanishing gradient issue
+   - Cons: Dying ReLU problem (zero gradient for negative inputs)
 
-🛠 **Hands-on: Classifying images using a pre-trained ResNet model**
+4. **Leaky ReLU**: f(x) = max(α·x, x), where α is a small constant
+   - Pros: Solves the Dying ReLU problem
 
----
+### Feedforward Neural Networks
 
-## 📌 8. Generative Deep Learning (GANs & Autoencoders)
-### 8.1 Concept of Generative Models
-### 8.2 Working Principle of GANs
-### 8.3 Advanced AI Models (DALL-E, Stable Diffusion)
-
-🛠 **Hands-on: Generating handwritten digits using a simple GAN model**
+- **Input Layer**: Feeds data into the network
+- **Hidden Layers**: Learn complex features (deeper layers enhance abstraction)
+- **Output Layer**: Produces final predictions
 
 ---
 
-## 📌 9. Deep Learning Final Projects
-✅ Handwritten digit recognition using AI (MNIST)  
-✅ Simple chatbot with LSTM  
-✅ Face detection and classification using CNN  
-✅ Sentiment analysis with RNN  
-✅ Object detection using YOLO  
-✅ Image generation using GANs  
+## 3. Learning Principles of Deep Learning
+
+### Loss Functions
+
+- Measure the difference between predicted and actual values
+- The goal is to minimize the loss function
+
+**Common Loss Functions**:
+
+1. **Mean Squared Error (MSE)**: Used for regression tasks
+   - L = (1/n) Σ(y - ŷ)²
+
+2. **Cross-Entropy Loss**: Used for classification tasks
+   - Binary Classification: L = -[y·log(ŷ) + (1-y)·log(1-ŷ)]
+   - Multi-class Classification: L = -Σ y_i·log(ŷ_i)
+
+### Gradient Descent
+
+**Basic Principle**:
+- Update parameters in the direction that minimizes the loss function
+- Compute the gradient of the loss function
+- Parameter update formula: θ_new = θ_old - η·∇L(θ)
+
+**Types of Gradient Descent**:
+1. **Batch Gradient Descent**: Uses the entire dataset
+2. **Stochastic Gradient Descent (SGD)**: Updates using one sample at a time
+3. **Mini-batch Gradient Descent**: Uses small batches of data
+
+**Optimization Algorithms**:
+- SGD with Momentum
+- RMSprop
+- Adam (widely used)
+
+### Backpropagation Algorithm
+
+**Key Idea**:
+- Uses output error to update previous layers' weights efficiently
+- Computes gradients using the Chain Rule
+- Propagates errors from output layer to input layer
 
 ---
 
-## 📌 10. Latest Deep Learning Trends & Applications
-### 10.1 Recent Research Papers (Transformers, Vision Transformers)
-### 10.2 Applications in Autonomous Driving, Robotics, and Drones
-### 10.3 Industry Use Cases
+## 4. Types of Deep Learning Models
 
-🛠 **Hands-on: Text generation using Hugging Face models**  
-🛠 **Hands-on: Object detection in drone footage using YOLO**  
+### CNN (Convolutional Neural Networks)
+
+**Components**:
+- **Convolutional Layer**: Extracts features
+- **Pooling Layer**: Downsamples features
+- **Fully Connected Layer**: Performs classification
+
+### RNN (Recurrent Neural Networks)
+
+**Characteristics**:
+- Suitable for sequential data
+- Maintains internal states for temporal information storage
+- Uses shared parameters over time steps
+
+**Limitations**:
+- Long-term dependency issue
+- Vanishing/exploding gradients
+
+**Improved RNNs**:
+- LSTM (Long Short-Term Memory)
+- GRU (Gated Recurrent Unit)
+
+### Transformer Architecture
+
+**Components**:
+- **Multi-head Self-Attention**
+- **Positional Encoding**
+- **Encoder-Decoder Structure**
 
 ---
 
-## 📌 Additional Resources & Advanced Learning
-✅ Recommended research papers and courses  
-✅ Introduction to AI competitions (Kaggle, AI Hackathons)  
-✅ Exploring the latest open-source AI projects  
+## 5. Hands-on: Simple Image Classification
 
+**Load and preprocess MNIST dataset**:
+```python
+import tensorflow as tf
+from tensorflow.keras.datasets import mnist
+
+(x_train, y_train), (x_test, y_test) = mnist.load_data()
+
+x_train = x_train.astype('float32') / 255.0
+x_test = x_test.astype('float32') / 255.0
+
+x_train = x_train.reshape(-1, 28, 28, 1)
+x_test = x_test.reshape(-1, 28, 28, 1)
+
+y_train = tf.keras.utils.to_categorical(y_train, 10)
+y_test = tf.keras.utils.to_categorical(y_test, 10)
+```
+
+**Model Implementation**:
+```python
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
+
+model = Sequential([
+    Conv2D(32, kernel_size=(3, 3), activation='relu', input_shape=(28, 28, 1)),
+    MaxPooling2D(pool_size=(2, 2)),
+    Conv2D(64, kernel_size=(3, 3), activation='relu'),
+    MaxPooling2D(pool_size=(2, 2)),
+    Flatten(),
+    Dense(128, activation='relu'),
+    Dropout(0.5),
+    Dense(10, activation='softmax')
+])
+
+model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+```
+
+---
+
+This translation provides a structured English version of the Deep Learning Basics guide.
