@@ -31,6 +31,10 @@
 
 ## 1. Overview of Deep Learning
 
+<img src="https://github.com/user-attachments/assets/fcadf4b2-aa60-4f1a-9dd7-0c7e34f8e3a0" width="700">
+
+<br/><br/>
+
 ### Relationship between AI, Machine Learning, and Deep Learning
 
 - **Artificial Intelligence (AI)**: The broad technology of mimicking human intelligence
