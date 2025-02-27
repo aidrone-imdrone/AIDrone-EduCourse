@@ -208,6 +208,12 @@
 
 ### Transformer Architecture
 
+<br/>
+
+<img src="https://github.com/user-attachments/assets/29820b09-7e12-4237-9c98-519cd088abf7" width="800">
+
+<br/><br/>
+
 **Components**:
 - **Multi-head Self-Attention**
 - **Positional Encoding**
