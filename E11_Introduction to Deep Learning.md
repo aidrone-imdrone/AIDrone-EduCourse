@@ -152,6 +152,12 @@
 
 ### Gradient Descent
 
+<br/>
+
+<img src="https://github.com/user-attachments/assets/872b8f9e-3c01-447d-afd9-a780cd6bafa8" width="800">
+
+<br/><br/>
+
 **Basic Principle**:
 - Update parameters in the direction that minimizes the loss function
 - Compute the gradient of the loss function
