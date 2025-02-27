@@ -88,6 +88,10 @@
 
 ### Activation Functions
 
+<img src="https://github.com/user-attachments/assets/77957e1f-e39d-433e-ac97-9066acc6ad8b" width="800">
+
+<br/><br/>
+
 **Common Activation Functions**:
 
 1. **Sigmoid**: f(x) = 1 / (1 + e^(-x))
