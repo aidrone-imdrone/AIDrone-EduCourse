@@ -82,6 +82,10 @@
 - Compute error (Actual - Predicted)
 - Update weights: w_new = w_old + α(Actual - Predicted) × Input
 
+<img src="https://github.com/user-attachments/assets/15e75733-2b62-413a-8557-75d262560549" width="800">
+
+<br/><br/>
+
 ### Activation Functions
 
 **Common Activation Functions**:
