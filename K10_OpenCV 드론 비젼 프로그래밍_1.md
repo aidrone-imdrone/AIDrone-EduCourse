@@ -50,7 +50,7 @@
 
 <br/>
 
-### 4. 소스를 다운받아서 OpenCV 설치 (If using  C/C++ and Python )  : 추천하는 방법법
+### 4. 소스를 다운받아서 OpenCV 설치 (If using  C/C++ and Python )  : 추천하는 방법
 
        git clone https://github.com/opencv/opencv.git
    
@@ -80,7 +80,7 @@
 
 <br/>
 
-#### 1) Build  mjpg-streamer source  
+#### 1) mjpg-streamer 소스 빌드드 
 
      sudo apt update && sudo apt upgrade -y
 
@@ -96,8 +96,7 @@
     
 <br/>  
 
-#### 3) MJPG-Streamer Test
-
+#### 3) MJPG-Streamer 테스트
       cd mjpg-streamer/mjpg-streamer-experimental
 
       ./mjpg_streamer -i "input_uvc.so -r 640x480 -f 30 -rot 180" -o "output_http.so -w ./www"
@@ -138,7 +137,7 @@
 
 <br/>      
  
-####  Edit mjpg-streamer.service  
+####  mjpg-streamer.service 편집집 
 
      sudo nano /etc/systemd/system/mjpg-streamer.service
  
@@ -165,7 +164,7 @@
 
 <br/>
                
-####  Start  mjpg-streamer service 
+####  mjpg-streamer service 시작작 
 <br/>
 
    sudo systemctl daemon-reload
