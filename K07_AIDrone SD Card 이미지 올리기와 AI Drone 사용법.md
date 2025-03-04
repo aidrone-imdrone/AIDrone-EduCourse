@@ -176,7 +176,7 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 
 <br/><br/>
 
-<img src="https://github.com/user-attachments/assets/96821cb0-264e-40c5-8ca8-3c4c77125328" width="500">
+<img src="https://github.com/user-attachments/assets/b0c4ba74-34fa-4913-a882-3f18da142a61" width="500">
 
 
 
