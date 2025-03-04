@@ -110,11 +110,11 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 
 ### 7) mjpg-streamer 서비스 정지
 
-#####  멈춤 (다시 라즈베리파이 시작하면 서비스 계속)
+#####  멈춤(stop) : 라즈베리파이 시작하면 다시 서비스 계속)
 
      sudo systemctl stop mjpg-streamer
 
-#####  라즈베리파이를 다시 시작해도 서비스 멈추기 
+#####  불능(disable) : 라즈베리파이를 다시 시작해도 서비스 않함
 
      sudo systemctl disable mjpg-streamer
 
