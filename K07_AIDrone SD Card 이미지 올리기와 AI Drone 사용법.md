@@ -138,9 +138,11 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
   sudo   /usr/local/bin/switch_wifi_mode.sh   STA  
 </pre>    
 
+<br/><br/>
+
 - **각자 라우터 설정을 해야 함**
   
- <br/><br/>
+ <br/>
 
 <img src="https://github.com/user-attachments/assets/53dbb7fc-d563-4959-8741-557a0ca000f7" width="500">
 
