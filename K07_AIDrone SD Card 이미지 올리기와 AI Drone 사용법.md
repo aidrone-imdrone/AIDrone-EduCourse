@@ -132,7 +132,7 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 
 <br/>
 
-- **STA Mode: STA 모드로 변경 후에는 라즈베리파이 WI-FI 설정을 해야 함.  공간에 있는 라우터의 SSID와 비번을 입력하세요**
+- **STA Mode: STA 모드로 변경 후에는 라즈베리파이 WI-FI 설정을 해야 함.  공간에 있는 라우터의 SSID와 비번을 입력하세요.  라즈베리파이를 업데이트 및 업그레이드 하려면 STA 모드로 해야함**
 
 <pre>
   sudo   /usr/local/bin/switch_wifi_mode.sh   STA  
