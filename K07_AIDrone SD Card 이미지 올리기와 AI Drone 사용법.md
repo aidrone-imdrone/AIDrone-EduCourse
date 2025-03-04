@@ -64,7 +64,7 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 
 - **1 :  ssh    aidrone@192.168.4.1**
 - **2 :  yes**
-- **3 :  aidrone password  1234**
+- **3 :  aidrone password :   1234**
 
 <br/><br/>
 
