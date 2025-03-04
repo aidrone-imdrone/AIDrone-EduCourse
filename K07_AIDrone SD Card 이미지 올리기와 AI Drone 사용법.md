@@ -99,6 +99,8 @@ https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive
 - **PC에서 영상 확인하기**
 
      http://<raspberry_pi_wifi_address>
+
+     ex )   http://192.168.4.1
      
 <br/>
 
