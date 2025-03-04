@@ -1,4 +1,4 @@
-### 1. Install Libraries
+### 1. 기본 라이브러리 설치
 
 <br/>
 
@@ -7,7 +7,7 @@
 
 <br/>
 
-### 2. Change SWAPSIZE to 2048
+### 2. 스왑 사이즈를 2048로 변경
 
 <br/>
 
@@ -30,13 +30,13 @@
 <br/>
        
 
-### 3. Install Opencv  (Simple waw for C++ and Python) 
+### 3. 간단하게 OpenCV 설치  for C++ and Python 
 
      sudo apt install libopencv-dev
 
      sudo apt install python3-opencv
 
-#### Move the opencv executable to the python virtual environment
+#### OpenCV 실행 파일을 파이썬 가상환경으로 이동 
 
      sudo  find  /  -type  f  -name  "cv2*.so"
 
@@ -44,13 +44,13 @@
 
      cp /usr/lib/python3/dist-packages/cv2.cpython-39-arm-linux-gnueabihf.so    ~/myvenv/lib/python3.9/site-packages/
 
-#### Check up The OpenCV's version
+#### OpenCV의 버젼 확인
 
 ![image](https://github.com/user-attachments/assets/473ac68a-f880-4d9e-a3f6-503a26e5823e)
 
 <br/>
 
-### 4. Install OpneCV by Source  (If using  C/C++ and Python )  : Recommend this method
+### 4. 소스를 다운받아서 OpenCV 설치 (If using  C/C++ and Python )  : 추천하는 방법법
 
        git clone https://github.com/opencv/opencv.git
    
@@ -76,7 +76,7 @@
 
 <br/>
 
-### 5. Install MJPG-Streamer in Rasbperry Pi Zero 2w ( Bullseye OS Version)
+### 5. Rasbperry Pi Zero 2w 에 MJPG-Streamer 설치 ( Bullseye OS Version)
 
 <br/>
 
