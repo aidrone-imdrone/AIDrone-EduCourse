@@ -274,3 +274,19 @@
 ## 4. Python Examples Download  
 
 https://drive.google.com/file/d/1PL83f4dKdujmGdwxJMsD6q8oGT_Q5fjM/view?usp=drive_link
+
+<br/><br/>
+
+## 5. Controlling Drone Flight on Raspberry Pi
+
+<br/>
+
+### 1) Copy the example code to the Raspberry Pi using Samba.
+
+### 2) Modify the example code:
+
+        aidrone.Open("COM3")   to   aidrone.Open("/dev/serial0")
+        
+### 3) Run the modified example on the Raspberry Pi using PuTTY to autonomously control the drone.
+
+      (Examples include functions like move, velocity, rotation, altitude, altitude_mode, etc.)
