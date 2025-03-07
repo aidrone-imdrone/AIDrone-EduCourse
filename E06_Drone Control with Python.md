@@ -289,4 +289,4 @@ https://drive.google.com/file/d/1PL83f4dKdujmGdwxJMsD6q8oGT_Q5fjM/view?usp=drive
         
 ### 3) Run the modified example on the Raspberry Pi using PuTTY to autonomously control the drone.
 
-      (Examples include functions like move, velocity, rotation, altitude, altitude_mode, etc.)
+      (ex:  move, velocity, rotation, altitude, altitude_mode, etc.)
