@@ -281,7 +281,7 @@ https://drive.google.com/file/d/1PL83f4dKdujmGdwxJMsD6q8oGT_Q5fjM/view?usp=drive
 
 <br/>
 
-### 1) Copy the example code to the Raspberry Pi using Samba.
+### 1) Copy the example code to the Raspberry Pi using Samba.  (Samba ID: aidrone  ,  Password :  samba )
 
 ### 2) Modify the example code:
 
