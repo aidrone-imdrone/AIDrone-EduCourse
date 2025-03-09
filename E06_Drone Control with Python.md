@@ -277,7 +277,8 @@ https://drive.google.com/file/d/1PL83f4dKdujmGdwxJMsD6q8oGT_Q5fjM/view?usp=drive
 
 <br/><br/>
 
-## 5. Controlling Drone Flight on Raspberry Pi Zero 2W   (Applied from aidrone Image version 250309)
+## 5. Controlling Drone Flight on Raspberry Pi Zero 2W  
+*(Applied from aidrone Image version 250309)*  
 
 <br/>
 
