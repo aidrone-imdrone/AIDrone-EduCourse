@@ -290,9 +290,9 @@ https://drive.google.com/file/d/1PL83f4dKdujmGdwxJMsD6q8oGT_Q5fjM/view?usp=drive
   sudo systemctl stop hciuart
   sudo systemctl disable hciuart
 
-Modify the /boot/config.txt file (add to the last line):
-```bash
-dtoverlay=disable-bt
+- **Modify the /boot/config.txt file (add to the last line):**
+  ```bash
+  dtoverlay=disable-bt
 
 <br/>
 
