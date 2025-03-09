@@ -284,9 +284,12 @@ https://drive.google.com/file/d/1PL83f4dKdujmGdwxJMsD6q8oGT_Q5fjM/view?usp=drive
 ### <Note: If it is an aidrone Image version before 250309, edit it directly>
 - **In raspi-config, set serial to No in Interface Options.**
 - **You must stop the Bluetooth service to use serial**
+  <br/>
      sudo systemctl stop hciuart
      sudo systemctl disable hciuart
+  <br/>
 - **Modify the /boot/config.txt file (add to the last line)**
+<br/>
      dtoverlay=disable-bt
 
 <br/>
