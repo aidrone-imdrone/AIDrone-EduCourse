@@ -277,7 +277,17 @@ https://drive.google.com/file/d/1PL83f4dKdujmGdwxJMsD6q8oGT_Q5fjM/view?usp=drive
 
 <br/><br/>
 
-## 5. Controlling Drone Flight on Raspberry Pi Zero 2W
+## 5. Controlling Drone Flight on Raspberry Pi Zero 2W   (Applied from aidrone Image version 250309)
+
+<br/>
+
+### <Note: If it is an aidrone Image version before 250309, edit it directly>
+- **In raspi-config, set serial to No in Interface Options.**
+- **You must stop the Bluetooth service to use serial**
+sudo systemctl stop hciuart
+sudo systemctl disable hciuart
+- **Modify the /boot/config.txt file (add to the last line)**
+dtoverlay=disable-bt
 
 <br/>
 
