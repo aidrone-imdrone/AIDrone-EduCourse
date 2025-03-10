@@ -37,7 +37,9 @@
 
 ### When download Model from Teachable Machine, it has two file inside(model_unquant.tflite and labels.txt)
 
-<img src="https://github.com/user-attachments/assets/7662ce9d-983e-48cd-ba87-a1f14a9e7e77" width="500">
+<br/>
+
+<img src="https://github.com/user-attachments/assets/7662ce9d-983e-48cd-ba87-a1f14a9e7e77" width="800">
 
 <br/><br/>
 
