@@ -15,7 +15,9 @@
 
 <br/>
 
-![image](https://github.com/user-attachments/assets/57a9aa52-6b5d-47b8-9ab7-50e25e28a6e4)
+![image](https://github.com/user-attachments/assets/30981099-0b05-4b15-9b09-4f39283ac3f7)
+
+-**백그라운드에 다양한 환경을 찍어 주시기를 바랍니다.**
 
 <br/>
 
