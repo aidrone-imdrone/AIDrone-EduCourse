@@ -43,8 +43,10 @@
 
 <br/><br/>
 
-위 예제 TFLite Model Download Link :  https://drive.google.com/file/d/1tKUW6dgtu2XeN5icJJrAUJxIQi2sd78j/view?usp=drive_link
-  
+위 예제 TFLite Model Download Link :  https://drive.google.com/file/d/1plJbt3rtZM8ykWdG4hcWjcVjJFqcHOpI/view?usp=drive_link
+
+위 예제 Tensorflow Keras Model Download Link : https://drive.google.com/file/d/1-xWnTJtOaQ46F639xwqL1jQOYbWGgBrE/view?usp=drive_link
+
 <br/>
 
 ### 2) Tensorflow Lite 라이브러리를 설치한다. 
@@ -61,7 +63,7 @@
 
 <br/>
 
-### 4)  Code (gesture_drone_contorl.py)
+### 4)  Code (gesture_drone_contorl_pi.py)
 
 <br/>
 
@@ -313,7 +315,7 @@
 
 <br/><br/>
 
-### 5) Code 2 (gesture_drone_cotnrol_pi.py)
+### 5) Code 2 (gesture_drone_cotnrol_pc.py)
 
 <br/>
 
