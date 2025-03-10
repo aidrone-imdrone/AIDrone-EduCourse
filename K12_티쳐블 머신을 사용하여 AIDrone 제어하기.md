@@ -41,11 +41,11 @@
 
 <img src="https://github.com/user-attachments/assets/7662ce9d-983e-48cd-ba87-a1f14a9e7e77" width="800">
 
-<br/>
+<br/><br/>
 
 위 예제 TFLite Model Download Link :  https://drive.google.com/file/d/1tKUW6dgtu2XeN5icJJrAUJxIQi2sd78j/view?usp=drive_link
   
-<br/><br/>
+<br/>
 
 ### 2) Tensorflow Lite 라이브러리를 설치한다. 
 
