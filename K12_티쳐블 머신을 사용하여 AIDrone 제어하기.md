@@ -9,7 +9,7 @@
 
 <br/>
 
-###  Make Class 5  -> TakeOff, Landing, Up, Down, Left, Right, BackGround
+###  Make Class 5  -> TakeOff, Landing, Up, Down, Left, Right, BackGround, Hovering
 
 ![image](https://user-images.githubusercontent.com/122161666/227949247-011c49d0-adc2-4404-80d6-54166aa11d8a.png)
 
