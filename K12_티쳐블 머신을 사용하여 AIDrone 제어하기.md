@@ -5,7 +5,7 @@
 
 <br/>
 
-<img src="https://github.com/user-attachments/assets/766422b4-08dc-457e-94e9-928b495263ae" width="500">
+<img src="https://github.com/user-attachments/assets/766422b4-08dc-457e-94e9-928b495263ae" width="800">
 
 <br/>
 
