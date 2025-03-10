@@ -18,6 +18,7 @@
 ![image](https://github.com/user-attachments/assets/30981099-0b05-4b15-9b09-4f39283ac3f7)
 
 -**백그라운드에 다양한 환경을 찍어 주시기를 바랍니다.**
+
 -**각 클래스당 900 ~ 1000장 찍음**
 
 <br/>
