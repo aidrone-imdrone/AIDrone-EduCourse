@@ -43,7 +43,7 @@
 
 <br/>
 
-  TFLite Model Link :  https://drive.google.com/file/d/1tKUW6dgtu2XeN5icJJrAUJxIQi2sd78j/view?usp=drive_link
+위 예제 TFLite Model Download Link :  https://drive.google.com/file/d/1tKUW6dgtu2XeN5icJJrAUJxIQi2sd78j/view?usp=drive_link
   
 <br/><br/>
 
