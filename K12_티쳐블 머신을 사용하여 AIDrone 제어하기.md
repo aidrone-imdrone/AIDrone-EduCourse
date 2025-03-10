@@ -37,7 +37,7 @@
 
 ### When download Model from Teachable Machine, it has two file inside(keras_model.h5 and labels.txt)
 
-![image](https://user-images.githubusercontent.com/122161666/227954798-0ae30563-d60e-4185-822b-485fd7caf546.png)
+![image](https://github.com/user-attachments/assets/00d4d96a-5351-4299-979b-f01b1f45ff2d)
 
 <br/>
 
