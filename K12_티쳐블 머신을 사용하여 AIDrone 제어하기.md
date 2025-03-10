@@ -37,9 +37,9 @@
 
 ### When download Model from Teachable Machine, it has two file inside(model_unquant.tflite and labels.txt)
 
-<img src="https://github.com/user-attachments/assets/26eb56ea-7265-4990-a107-3c714d2be634" width="500">
+<img src="https://github.com/user-attachments/assets/7662ce9d-983e-48cd-ba87-a1f14a9e7e77" width="500">
 
-<br/>
+<br/><br/>
 
 ### 2) Tensorflow Lite 라이브러리를 설치한다. 
 
