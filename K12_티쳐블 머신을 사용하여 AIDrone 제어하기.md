@@ -271,7 +271,7 @@
         # 드론 연결
         try:
             aidrone = AIDrone()
-            aidrone.Open("COM3")  # 필요에 따라 포트 변경
+            aidrone.Open("/dev/serial0")  # 필요에 따라 포트 변경
             aidrone.setOption(0)
             sleep(0.5)
             print("드론에 연결되었습니다!")
@@ -310,5 +310,178 @@
     if __name__ == "__main__":
         main()
 
+
+<br/><br/>
+
+### 5) Code 2 (gesture_drone_cotnrol_pi.py)
+
+<br/>
+
+    from time import sleep
+    import cv2
+    import numpy as np
+    import tensorflow as tf
+    from pyaidrone.aiDrone import *
+    from pyaidrone.deflib import *
+    from pyaidrone.ikeyevent import *
+    import sys
     
+    # 전역 변수 설정
+    Height = 100
+    ready = -1
+    tof = 0
+    last_gesture = "Background"
+    gesture_confirmed = False
+    confirmation_count = 0
+    CONFIRMATION_THRESHOLD = 5  # 제스처 확인을 위한 연속 프레임 수
+    
+    # 라벨 로드
+    def load_labels(label_file):
+        with open(label_file, 'r') as f:
+            labels = {}
+            for line in f:
+                parts = line.strip().split(' ', 1)
+                if len(parts) == 2:
+                    labels[int(parts[0])] = parts[1]
+        return labels
+    
+    # 모델 로드
+    def load_model(model_path):
+        model = tf.keras.models.load_model(model_path)
+        return model
+    
+    # 드론으로부터 데이터 수신
+    def receive_data(packet):
+        global ready
+        global tof
+    
+        ready = packet[7] & 0x03
+        if packet[7] & 0x20 == 0x20 and len(packet) > 13:
+            tof = packet[13]
+            print("tof : ", tof)
+    
+    # 제스처 인식 및 드론 제어
+    def main():
+        global Height, last_gesture, gesture_confirmed, confirmation_count
+        
+        # 웹캠 초기화
+        cap = cv2.VideoCapture(0)
+        if not cap.isOpened():
+            print("웹캠을 열 수 없습니다.")
+            return
+        
+        # 모델 및 라벨 로드
+        try:
+            model = load_model("gesture_model.h5")
+            labels = load_labels("labels.txt")
+            print("모델과 라벨이 로드되었습니다.")
+        except Exception as e:
+            print(f"모델 또는 라벨 로드 실패: {e}")
+            return
+        
+        # 드론 초기화
+        aidrone = AIDrone()
+        ikey = IKeyEvent()
+        
+        try:
+            aidrone.Open("COM3")  # 포트 설정
+            aidrone.setOption(0)
+            sleep(0.5)
+            print("드론 연결 성공")
+        except Exception as e:
+            print(f"드론 연결 실패: {e}")
+            cap.release()
+            cv2.destroyAllWindows()
+            return
+        
+        # 메인 루프
+        while True:
+            # 키보드 입력 확인 (비상 정지 등)
+            if ikey.isKeyEscPressed():
+                print("프로그램 종료")
+                break
+            
+            # 웹캠에서 프레임 읽기
+            ret, frame = cap.read()
+            if not ret:
+                print("프레임을 읽을 수 없습니다.")
+                break
+            
+            # 이미지 전처리
+            resized_frame = cv2.resize(frame, (224, 224))
+            normalized_frame = resized_frame / 255.0
+            input_data = np.expand_dims(normalized_frame, axis=0)
+            
+            # 제스처 예측
+            predictions = model.predict(input_data)
+            gesture_id = np.argmax(predictions[0])
+            confidence = predictions[0][gesture_id]
+            
+            current_gesture = labels.get(gesture_id, "Unknown")
+            
+            # 제스처 확인 (노이즈 방지를 위해 여러 프레임 연속으로 같은 제스처인지 확인)
+            if current_gesture == last_gesture and confidence > 0.7:
+                confirmation_count += 1
+            else:
+                confirmation_count = 0
+                last_gesture = current_gesture
+            
+            # 제스처가 확인되면 드론 제어
+            if confirmation_count >= CONFIRMATION_THRESHOLD and not gesture_confirmed:
+                gesture_confirmed = True
+                
+                print(f"제스처 감지: {current_gesture} (신뢰도: {confidence:.2f})")
+                
+                # 제스처별 드론 동작 제어
+                if current_gesture == "TakeOff":
+                    print("이륙")
+                    aidrone.takeoff()
+                
+                elif current_gesture == "Landing":
+                    print("착륙")
+                    aidrone.landing()
+                
+                elif current_gesture == "Left":
+                    print("왼쪽")
+                    aidrone.velocity(LEFT, 100)
+                    sleep(1)
+                    aidrone.velocity(LEFT, 0)
+                
+                elif current_gesture == "Right":
+                    print("오른쪽")
+                    aidrone.velocity(RIGHT, 100)
+                    sleep(1)
+                    aidrone.velocity(RIGHT, 0)
+                
+                elif current_gesture == "Hovering":
+                    print("호버링")
+                    aidrone.velocity(FRONT, 0)
+                    aidrone.velocity(RIGHT, 0)
+            
+            # 일정 시간 동안 같은 제스처가 유지되지 않으면 제스처 확인 상태 초기화
+            elif current_gesture != last_gesture:
+                gesture_confirmed = False
+            
+            # 화면에 정보 표시
+            cv2.putText(frame, f"Gesture: {current_gesture}", (10, 30), 
+                        cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
+            cv2.putText(frame, f"Confidence: {confidence:.2f}", (10, 70), 
+                        cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
+            
+            # 결과 표시
+            cv2.imshow("Gesture Drone Control", frame)
+            
+            # q 키를 누르면 종료
+            if cv2.waitKey(1) & 0xFF == ord('q'):
+                break
+        
+        # 정리
+        aidrone.landing()  # 안전을 위해 착륙
+        sleep(1)
+        aidrone.Close()
+        cap.release()
+        cv2.destroyAllWindows()
+    
+    if __name__ == "__main__":
+        main()
   
