@@ -23,12 +23,7 @@
 
 <br/>
 
-### Click Webcam and  take each direction picture 
-
-<br/>
-
 ![image](https://github.com/user-attachments/assets/bc4ddd46-9bdc-40d4-bc16-1e5d064ab898)
-
 
 <br/>
 
