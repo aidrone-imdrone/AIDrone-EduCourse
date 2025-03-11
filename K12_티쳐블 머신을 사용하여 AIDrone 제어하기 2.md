@@ -47,7 +47,7 @@ pip install numpy
 
 <br/><br/>
 
--**위 예제의 결과인 Tensorflow Lite Model Downlaod Link** 
+-**위 예제의 결과인 Tensorflow Lite Model Download Link** 
 
   https://drive.google.com/file/d/1as4y0XBxWTalh1ZJsO-hn06-9TRT9Kvw/view?usp=drive_link
 
