@@ -47,7 +47,7 @@
 
 <br/>
 
-### 2)  티쳐블 머신에서 얻은 모델파일을 활용하기 위한 제어 Code (gesture_drone_contorl_pi.py)
+### 2)  티쳐블 머신에서 얻은 모델파일을 활용하기 위한 제어 Code 1 (gesture_drone_contorl_pi.py)
 
 <br/>
 
