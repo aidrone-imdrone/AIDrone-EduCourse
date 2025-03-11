@@ -54,6 +54,7 @@
 <br/>
 
 - **The control code, model file, and label text must be in the same folder. (Modify the model path accordingly in the code below.)**
+- **This control code allows you to connect to the drone by plugging a Bluetooth dongle into the PC or connecting the controller to the PC via a USB cable. It enables drone control using hand gestures detected by the laptop or PC camera.**
   
 <br/>
 
