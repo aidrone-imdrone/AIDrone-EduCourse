@@ -48,6 +48,7 @@
 <br/><br/>
 
 위 예제의 결과인 Tensorflow Keras Model Download Link : https://drive.google.com/file/d/176WYku7cJY5hpOT9xwC2uys1dby9OCCH/view?usp=drive_link
+
 위 예제의 결과인 Tensorflow Lite Model Downlaod Link : 
 
 <br/>
@@ -220,9 +221,6 @@
 
 <br/><br/>
 
-### 3) 티쳐블 머신에서 얻은 tflite 모델파일을 라즈베리파이 카메라를 통해 실행하는 코드 (gesture_model_unquant.tflite , label.txt)
-
-<br/>
 
 
 
