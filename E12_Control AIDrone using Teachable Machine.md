@@ -49,7 +49,7 @@
 
 <br/>
 
-### 2)  Control Code 1 for Using the Model File Obtained from Teachable Machine (gesture_drone_contorl_pi.py)
+### 2)  Control Code for Using the Model File Obtained from Teachable Machine (gesture_drone_contorl_pi.py)
 
 <br/>
 
@@ -213,3 +213,5 @@
 #### Code Features
 - **In the above code, the confidence threshold is set to 90% to ensure the accuracy of gesture recognition.**
 - **Additionally, the action is triggered only when a gesture is continuously recognized for more than 1 second.**
+
+
