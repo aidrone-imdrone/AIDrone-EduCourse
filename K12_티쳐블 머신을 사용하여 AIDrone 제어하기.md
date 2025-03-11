@@ -43,7 +43,7 @@
 
 <br/><br/>
 
-<img src="https://github.com/user-attachments/assets/4e3a87ac-ee49-4d45-8e96-6f640d2d0fec"  width="800">
+<img src="https://github.com/user-attachments/assets/e6a6ef49-487f-4f16-866d-165b9f7d097f"  width="800">
 
 <br/><br/>
 
@@ -52,7 +52,7 @@
 
 <br/>
 
-### 2)  티쳐블 머신에서 얻은 모델파일을 PC 또는 노트북 카메라를 통해  드론 제어하는는 Code (gesture_drone_contorl_pi.py)
+### 2)  티쳐블 머신에서 얻은 h5 모델파일 을 PC 또는 노트북 카메라를 통해  드론 제어하는는 Code (gesture_drone_contorl_pi.py)
 
 <br/>
 
@@ -220,8 +220,9 @@
 
 <br/><br/>
 
-### 3) 티쳐블 머신에서 얻은 모델 파일을 라즈베리파이 카메라를 통해 실행하는 코드 (gesture_model_unquant.tflite , label.txt)
+### 3) 티쳐블 머신에서 얻은 tflite 모델파일을 라즈베리파이 카메라를 통해 실행하는 코드 (gesture_model_unquant.tflite , label.txt)
 
 <br/>
+
 
 
