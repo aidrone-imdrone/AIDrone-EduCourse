@@ -49,7 +49,7 @@
 
 <br/>
 
-### 2)  Control Code for Using the Model File Obtained from Teachable Machine (gesture_drone_contorl_pi.py)
+### 2)  Control Code 1 for Using the Model File Obtained from Teachable Machine (gesture_drone_contorl_pi.py)
 
 <br/>
 
