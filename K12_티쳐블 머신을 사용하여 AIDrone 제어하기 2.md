@@ -41,6 +41,13 @@ pip install numpy
    - Teachable Machine을 사용하여 손동작 모델을 생성하고 TFLite 모델로 내보내기
    - 모델 파일(`model.tflite`)과 라벨 파일(`labels.txt`)을 프로젝트 디렉토리에 위치
 
+<br/>
+
+<img src="https://github.com/user-attachments/assets/e6a6ef49-487f-4f16-866d-165b9f7d097f"  width="800">
+
+<br/><br/>
+
+위 예제의 결과인 Tensorflow Lite Model Downlaod Link : 
 
 2. 코드 실행
    ```bash
@@ -82,7 +89,7 @@ elif time() - gesture_start_time >= gesture_duration_threshold:
 
 ## 커스터마이징
 
-- **포트 설정**: 드론이 연결된 포트를 환경에 맞게 수정 (`aidrone.Open("COM3")` 부분)
+- **포트 설정**: 드론이 연결된 포트를 환경에 맞게 수정 (`aidrone.Open("COM3")` 부분)  =>  aidrone.Open("/dev/serial0")
 - **신뢰도 임계값**: 필요에 따라 신뢰도 임계값 조정 (`confidence_threshold = 90`)
 - **지속 시간**: 손동작 유지 시간 조정 (`gesture_duration_threshold = 1.0`)
 - **추가 제스처**: 더 많은 손동작과 드론 명령을 추가하여 기능 확장 가능
@@ -94,6 +101,4 @@ elif time() - gesture_start_time >= gesture_duration_threshold:
 - **드론 연결 오류**: 드론 배터리 및 연결 포트 확인
 - **낮은 인식률**: 더 많은 훈련 데이터로 모델 재훈련 또는 조명 조건 개선
 
-## 라이선스
 
-이 프로젝트는 MIT 라이선스 하에 제공됩니다.
