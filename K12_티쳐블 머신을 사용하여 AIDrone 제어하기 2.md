@@ -58,7 +58,9 @@ pip install numpy
    python gesture_drone_control_pi.py
    ```
 - **tflife 폴더 안에 있음**
-  
+
+<br/>
+
 3. 손동작으로 드론 제어
    - "TakeOff": 드론 이륙
    - "Landing": 드론 착륙
