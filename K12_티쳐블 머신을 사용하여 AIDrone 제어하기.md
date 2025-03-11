@@ -43,11 +43,16 @@
 
 <br/><br/>
 
+<img src="https://github.com/user-attachments/assets/4e3a87ac-ee49-4d45-8e96-6f640d2d0fec"  width="800">
+
+<br/><br/>
+
 위 예제의 결과인 Tensorflow Keras Model Download Link : https://drive.google.com/file/d/176WYku7cJY5hpOT9xwC2uys1dby9OCCH/view?usp=drive_link
+위 예제의 결과인 Tensorflow Lite Model Downlaod Link : 
 
 <br/>
 
-### 2)  티쳐블 머신에서 얻은 모델파일을 활용하기 위한 제어 Code 1 (gesture_drone_contorl_pi.py)
+### 2)  티쳐블 머신에서 얻은 모델파일을 PC 또는 노트북 카메라를 통해  드론 제어하는는 Code (gesture_drone_contorl_pi.py)
 
 <br/>
 
@@ -212,5 +217,11 @@
 
 - **위 코드에서  동작의 정확성을 위해서 신뢰도를 90%로 했다**
 - **또한 한 동작이 계속 1초 이상 인식이 되었을 때 동작하도록 했다**
+
+<br/><br/>
+
+### 3) 티쳐블 머신에서 얻은 모델 파일을 라즈베리파이 카메라를 통해 실행하는 코드 (gesture_model_unquant.tflite , label.txt)
+
+<br/>
 
 
