@@ -1,204 +1,135 @@
+# Drone Object Tracking Program User Manual
 
-# Object Tracking Drone System User Guide
+## Overview
 
-This document explains how to install and use a system that automatically tracks objects selected by users with a Raspberry Pi Zero 2W-based mini drone.
+This program is a UI application designed to control a mini coding drone built with a Raspberry Pi Zero 2W, camera, and FC (Flight Controller). It receives video from the Raspberry Pi through an MJPG-streamer service, allowing users to select and track specific objects.
 
-![Drone Object Tracking Example](https://github.com/user-attachments/assets/placeholder-tracking-image.jpg)
+## System Requirements
 
-## System Overview
-
-This system consists of two main components:
-
-1. **Raspberry Pi Drone Controller** (`object_tracking_drone.py`): Runs on the Raspberry Pi to control the drone and track objects.
-2. **PC Object Selection Client** (`pc_object_selector.py`): Runs on a PC to allow users to select objects to track and send tracking commands to the drone.
-
-The system provides video streaming through mjpg-streamer and tracks objects based on HSV color ranges.
-
-## Requirements
-
-### Hardware Requirements
-- Raspberry Pi Zero 2W
-- Raspberry Pi Camera Module
-- Mini drone with 8520 DC motors
-- Drone-to-Raspberry Pi connection cable
-
-### Software Requirements
-- Raspberry Pi
-  - Raspberry Pi OS
-  - Python 3.7 or higher
-  - OpenCV
+- Python 3.6 or higher
+- Required libraries:
+  - PyQt5
+  - OpenCV (cv2)
   - NumPy
-  - pyaidrone library
-  - mjpg-streamer (installed and registered as a service)
-- PC
-  - Python 3.7 or higher
-  - OpenCV
-  - NumPy
-  - tkinter (for GUI)
-  - Pillow
+  - pyaidrone
 
 ## Installation
 
-### Raspberry Pi Setup
-
-1. Install required packages:
+1. Install the required libraries:
 ```bash
-sudo apt update
-sudo apt install -y python3-pip python3-opencv python3-numpy
-pip3 install opencv-python-headless numpy
+pip install PyQt5 opencv-python numpy
 ```
 
-2. Verify that mjpg-streamer is running:
-```bash
-sudo systemctl status mjpg-streamer.service
-```
+2. Make sure the pyaidrone library or your drone control library is installed on your system.
 
-3. Download the drone object tracking code:
-```bash
-git clone https://github.com/yourusername/drone-object-tracking.git
-cd drone-object-tracking
-```
+3. Save the program code as `drone_tracking.py`.
 
-### PC Setup
+## Running the Program
 
-1. Install required packages:
-```bash
-pip install opencv-python numpy pillow
-```
-
-2. Download the PC client code:
-```bash
-git clone https://github.com/yourusername/drone-object-tracking.git
-cd drone-object-tracking
-```
-
-## Usage
-
-### 1. Run Object Tracking Drone Server on Raspberry Pi
-
-Connect to your Raspberry Pi via SSH and run:
+In a terminal or command prompt, run:
 
 ```bash
-cd ~/drone-object-tracking
-python3 object_tracking_drone.py
+python drone_tracking.py
 ```
 
-Additional options:
-```bash
-# Simulation mode (test without a drone)
-python3 object_tracking_drone.py --simulation
+## Program Interface
 
-# Configure different ports or URL
-python3 object_tracking_drone.py --mjpg-url http://localhost:8080/?action=stream --cmd-port 8081 --port /dev/serial0
-```
+The program UI is divided into two parts:
+- Left: Control panel (settings, status, buttons, etc.)
+- Right: Video display area
 
-When the program starts, note the Raspberry Pi's IP address and port numbers.
+### Left Control Panel
 
-### 2. Run Object Selection Client on PC
+#### 1. Connection Settings
+- **Drone IP**: Enter the IP address of your Raspberry Pi Zero 2W.
+- **MJPG Port**: Port number for MJPG-streamer (default: 80)
+- **Command Port**: Port for drone control commands (default: 8081)
+- **Connect/Disconnect** buttons: Connect to/disconnect from the drone and video stream
 
-On your PC, run:
+#### 2. Status
+- Current connection status
+- Tracking status
+- FPS (Frames Per Second) display
 
-```bash
-cd drone-object-tracking
-python pc_object_selector.py
-```
+#### 3. Object Selection Method
+- Guide for users on how to select and track objects
 
-### 3. Connect to the Drone
+#### 4. Object Tracking Control
+- **Start Tracking** button: Begin tracking the selected object
+- **Stop Tracking** button: Stop object tracking (drone maintains hovering)
 
-In the PC client GUI:
+#### 5. Detailed Object Information
+- Displays information about the tracked object including position, size, HSV color values, etc.
+- **Save Object** button: Save information about the currently tracked object
+- **Load Object** button: Load saved object information
 
-1. Enter the Raspberry Pi's IP address and ports.
+#### 6. Flight Control Settings
+- **Take Off** button: Launch the drone
+- **Land** button: Land the drone
+- **Forward/Backward** buttons: Manual drone control
+
+### Right Video Screen
+- Displays real-time video from the drone camera
+- Shows a green rectangle around the tracked object
+- Displays a blue crosshair at the center of the screen (drone center point)
+
+## How to Use
+
+### 1. Connection Setup
+1. Enter the drone IP address and ports.
 2. Click the "Connect" button.
-3. When the connection is successful, a "Connected" message will be displayed.
+3. When the status changes to "Connection Successful", you are properly connected.
 
-### 4. Select and Track an Object
+### 2. Drone Take Off
+1. Click the "Take Off" button or press the Enter key.
+2. The drone will take off and hover at a height of approximately 1m.
 
-1. Select the object you want to track by dragging with your mouse on the video stream.
-2. The color of the selected object will be automatically analyzed, and the HSV color range will be displayed.
-3. Adjust the HSV sliders if necessary to fine-tune the object detection range.
-4. Click the "Start Tracking" button.
-5. The drone will automatically begin tracking the selected object.
+### 3. Object Selection
+1. Select the object you want to track by dragging a rectangle around it with your mouse on the video screen.
+2. The selected object will be automatically analyzed and its HSV color information extracted.
+3. After object selection, the status will change to "Object Selection Complete - Please Press 'Start Tracking' Button".
+
+### 4. Start Tracking
+1. Click the "Start Tracking" button or press the P key.
+2. The drone will begin tracking the selected object.
+3. The drone will automatically move to keep the object centered in the frame.
 
 ### 5. Stop Tracking
+1. Click the "Stop Tracking" button or press the O key.
+2. The drone will stop tracking and maintain hovering at its current position.
 
-To stop tracking, click the "Stop Tracking" button.
+### 6. Landing
+1. Click the "Land" button or press the Space key.
+2. The drone will stop tracking and land.
 
-## Code Structure
+### 7. Disconnect
+1. Click the "Disconnect" button or press the Esc key.
+2. The drone connection and video stream will be disconnected.
 
-### Raspberry Pi Code (`object_tracking_drone.py`)
+## Keyboard Shortcuts
 
-```
-object_tracking_drone.py
-├── Main function
-├── ObjectTrackingDrone class
-│   ├── open_mjpg_stream(): Connect to mjpg-streamer
-│   ├── read_mjpg_frame(): Read video frames
-│   ├── detect_object(): Detect objects based on HSV color
-│   ├── control_drone(): Drone control logic
-│   └── run(): Main loop
-└── CommandServer class: Receive commands from PC
-```
-
-### PC Client Code (`pc_object_selector.py`)
-
-```
-pc_object_selector.py
-├── Main function
-└── DroneObjectSelector class
-    ├── create_widgets(): Set up GUI
-    ├── connect_to_drone(): Connect to drone
-    ├── select_object(): Process object selection
-    ├── analyze_selection(): Analyze selected area colors
-    ├── start_tracking(): Send tracking commands
-    └── stream_video(): Process video stream
-```
-
-## How It Works
-
-1. **Object Selection**: The user selects an object to track using the PC client.
-2. **Color Analysis**: The HSV color range of the selected area is analyzed.
-3. **Tracking Command**: The PC client sends the HSV color range and tracking command to the drone.
-4. **Object Detection**: The drone uses the received HSV color range to detect the object in the camera feed.
-5. **Drone Control**: The drone automatically moves to track the detected object based on its position.
+- **Enter**: Take off
+- **Space**: Land
+- **P**: Start tracking
+- **O**: Stop tracking
+- **Esc**: Disconnect
 
 ## Troubleshooting
 
-### Connection Issues
-- Verify that the Raspberry Pi IP address and ports are correct.
-- Check that mjpg-streamer is running.
-- Check firewall settings.
+### Connection Failure
+- Verify that the Raspberry Pi's IP address is correct.
+- Check that MJPG-streamer is running.
+- Make sure the port numbers are correct.
+- Check the network connection status.
 
-### Object Detection Issues
-- Adjust HSV sliders to fine-tune the color range.
-- Ensure lighting conditions are adequate.
-- Check that there is sufficient color contrast between the object and background.
+### Object Lost During Tracking
+- If the object moves too quickly, tracking may be difficult.
+- If the object's color is similar to the background, tracking may be challenging.
+- Changes in lighting conditions may cause color-based tracking to fail.
 
-### Drone Control Issues
-- Verify that the serial port is correctly configured.
-- Check drone battery status.
-- Test in simulation mode first.
+## Notes
 
-## Advanced Configuration
-
-### Fine-tuning HSV Values
-You can adjust the HSV (Hue, Saturation, Value) values to optimize detection ranges for various lighting environments and object colors:
-
-- **H (Hue)**: Represents the color (0-179).
-- **S (Saturation)**: Represents the purity of the color (0-255).
-- **V (Value)**: Represents brightness (0-255).
-
-### Adjusting Dead Zone
-You can adjust the dead zone size (the area where the object is considered centered) for stable drone tracking:
-
-```python
-# In the Raspberry Pi code
-self.dead_zone = 50  # Adjust this value to change dead zone size
-```
-
-## License
-
-This project is provided under the MIT License.
-
-## Contributing
-
-You can contribute to this project by submitting issues or pull requests.
+- The drone can track objects after takeoff, and if no object is visible on screen, it will continue hovering at a height of 1m.
+- During object tracking, pressing the "Stop Tracking" button will cause the drone to maintain its hovering state.
+- While tracking an object, pressing the land button will stop tracking and land the drone.
+- Always land the drone and disconnect before closing the program.
