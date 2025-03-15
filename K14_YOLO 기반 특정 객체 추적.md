@@ -156,7 +156,7 @@ aidrone = AIDrone()
 aidrone.Open("COM3")
 
 # 카메라 설정
-cap = cv2.VideoCapture(0)
+cap = cv.VideoCapture("http://<각자 드론 IP>/?action=stream")  # 드론 카메라 사용  EX:  cv.VideoCapture("http://192.168.1.12/?action=stream")
 selected_object = None
 selected_bbox = None
 
