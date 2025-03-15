@@ -1,4 +1,4 @@
-# **YOLO-Based Object Tracking Project**
+# **YOLO-Based Specific Object Tracking Project**
 
 ## **1. Overview**
 ### **Project Objective**
@@ -37,25 +37,90 @@ pip install -r requirements.txt
 
 ---
 
-## **3. Adding New Objects to YOLO**
+## **3. Adding a New Object to YOLO**
 If the YOLO model does not recognize the object you want to track, follow these steps to train a custom model.
 
-### **1. Collect Data**
-Capture images containing the new object.
+### **Step 1: Collect Data**
+- Capture images containing the new object from different angles.
+- Alternatively, use publicly available datasets.
+- Save images in `dataset/images/`.
 
-### **2. Label Data**
-Annotate the images using YOLO format (`.txt`). You can use tools like [Roboflow](https://roboflow.com/) or LabelImg.
+### **Step 2: Resize Images**
+To ensure consistent training performance, resize images to 640x640 pixels.
+```python
+import cv2
+import os
 
-### **3. Convert Dataset to YOLO Format**
-Organize labeled data into `train`, `val`, and `test` folders.
+dataset_path = "dataset/images/"
+output_path = "dataset/resized/"
+os.makedirs(output_path, exist_ok=True)
 
-### **4. Train the Model**
+for file in os.listdir(dataset_path):
+    img = cv2.imread(os.path.join(dataset_path, file))
+    img_resized = cv2.resize(img, (640, 640))
+    cv2.imwrite(os.path.join(output_path, file), img_resized)
+```
+
+### **Step 3: Label Data for YOLO**
+- Use [LabelImg](https://github.com/heartexlabs/labelImg) to annotate images.
+```bash
+pip install labelImg
+labelImg
+```
+- Open `LabelImg`, select `dataset/resized/`, and label objects.
+- Save annotations in YOLO format (`.txt` files with bounding box information).
+
+### **Step 4: Prepare YOLO Dataset**
+Organize the dataset as follows:
+```
+yolo_custom_dataset/
+  ├── images/
+  │   ├── train/   # Training images
+  │   ├── val/     # Validation images
+  ├── labels/
+  │   ├── train/   # Training labels
+  │   ├── val/     # Validation labels
+```
+Move `80%` of images to `train/` and `20%` to `val/`.
+
+Create `custom_data.yaml`:
+```yaml
+train: /path_to_dataset/yolo_custom_dataset/images/train
+val: /path_to_dataset/yolo_custom_dataset/images/val
+nc: 1  # Number of classes
+names: ['custom_object']  # Name of your object
+```
+
+### **Step 5: Train the YOLO Model**
 ```bash
 python train.py --img 640 --batch 16 --epochs 50 --data custom_data.yaml --weights yolov5s.pt
 ```
-After training, the model (`custom_model.pt`) is saved and can be used for object detection.
+- The trained model is saved as `runs/train/exp/weights/best.pt`.
 
----
+### **Step 6: Test the Trained Model**
+```bash
+python detect.py --weights runs/train/exp/weights/best.pt --img 640 --conf 0.4 --source test.jpg
+```
+```bash
+python detect.py --weights runs/train/exp/weights/best.pt --img 640 --conf 0.4 --source video.mp4
+```
+
+### **Step 7: Integrating the Model with YOLO**
+```python
+import torch
+import cv2
+import numpy as np
+
+# Load trained YOLO model
+model = torch.hub.load('ultralytics/yolov5', 'custom', path='runs/train/exp/weights/best.pt', source='local')
+
+# Load image
+detect_img = cv2.imread('test.jpg')
+results = model(detect_img)
+
+# Display results
+results.show()
+```
 
 ## **4. Implementing User-Selectable Object Tracking**
 This code allows the user to click on a detected object to track it.
