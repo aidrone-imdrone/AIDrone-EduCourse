@@ -120,6 +120,7 @@ python detect.py --weights runs/train/exp/weights/best.pt --img 640 --conf 0.4 -
 
 ### **7단계: 모델을 YOLO와 통합하여 객체 추적 기능 구현**
 Python 코드에서 학습된 모델을 로드하여 사용합니다.
+
 ```python
 import torch
 import cv2
@@ -136,5 +137,101 @@ results = model(detect_img)
 results.show()
 ```
 
-이제 YOLO 모델을 활용하여 사용자가 정의한 객체를 탐지하고 추적할 수 있습니다. 🚀
+
+## **8단계: 마우스로 선택한 객체 추적 기능 추가**
+YOLO 모델을 활용하여 탐지된 객체를 마우스로 선택하여 추적하는 기능을 추가합니다.
+
+```python
+import torch
+import cv2
+import numpy as np
+from pyaidrone.aiDrone import *
+from pyaidrone.deflib import *
+
+# YOLO 모델 로드 (사용자 학습 모델 적용 가능)
+model = torch.hub.load('ultralytics/yolov5', 'custom', path='custom_model.pt', source='local')
+
+# 드론 초기화
+aidrone = AIDrone()
+aidrone.Open("COM3")
+
+# 카메라 설정
+cap = cv2.VideoCapture(0)
+selected_object = None
+selected_bbox = None
+
+def select_object(event, x, y, flags, param):
+    global selected_object, selected_bbox
+    if event == cv2.EVENT_LBUTTONDOWN:
+        for det in detections:
+            x1, y1, x2, y2, conf, cls = det
+            if x1 < x < x2 and y1 < y < y2:
+                selected_object = model.names[int(cls)]
+                selected_bbox = (x1, y1, x2, y2)
+                print(f"Selected Object: {selected_object}")
+                break
+
+cv2.namedWindow("YOLO Object Tracking")
+cv2.setMouseCallback("YOLO Object Tracking", select_object)
+
+while cap.isOpened():
+    ret, frame = cap.read()
+    if not ret:
+        break
+
+    results = model(frame)
+    detections = results.xyxy[0].cpu().numpy()
+    center_x, center_y = frame.shape[1] // 2, frame.shape[0] // 2
+    target_x, target_y = None, None
+
+    for det in detections:
+        x1, y1, x2, y2, conf, cls = det
+        label = model.names[int(cls)]
+        cv2.rectangle(frame, (int(x1), int(y1)), (int(x2), int(y2)), (0, 255, 0), 2)
+        cv2.putText(frame, label, (int(x1), int(y1)-10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+        
+        if selected_object and label == selected_object:
+            target_x = (x1 + x2) / 2
+            target_y = (y1 + y2) / 2
+
+    if target_x and target_y:
+        if target_x < center_x - 50:
+            aidrone.velocity(LEFT, 50)  # 왼쪽 이동
+        elif target_x > center_x + 50:
+            aidrone.velocity(RIGHT, 50)  # 오른쪽 이동
+        else:
+            aidrone.velocity(FRONT, 50)  # 전진
+    else:
+        aidrone.velocity(FRONT, 0)  # 멈춤
+
+    cv2.imshow('YOLO Object Tracking', frame)
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
+
+cap.release()
+cv2.destroyAllWindows()
+aidrone.Close()
+```
+
+이제 마우스로 클릭하여 원하는 객체를 선택하면, 드론이 해당 객체를 따라가도록 동작하며, 새로운 객체를 학습하여 추가할 수도 있습니다.
+
+---
+
+## **9단계: 프로젝트 요약**
+### **핵심 기능**
+- **YOLO 기반 객체 감지**
+- **사용자가 선택한 특정 객체를 추적**
+- **YOLO에 없는 객체를 추가 학습하여 추적 가능**
+- **드론이 객체를 따라가도록 제어**
+
+### **확장 가능성**
+- **추적 정확도 향상 (YOLOv7 등 최신 모델 적용)**
+- **다양한 객체 탐지 및 추적 기능 추가**
+- **강화학습을 활용한 최적 경로 학습**
+- **GPS 및 LiDAR 센서와 결합하여 실외에서도 활용 가능**
+
+이 프로젝트를 통해 YOLO를 이용한 객체 감지 및 드론의 자동 추적을 구현할 수 있습니다. 🚀
+
+
+
 
