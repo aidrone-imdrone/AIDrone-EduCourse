@@ -41,7 +41,7 @@ pip install -r requirements.txt
 If the YOLO model does not recognize the object you want to track, follow these steps to train a custom model.
 
 ### **Step 1: Collect Data**
-- Capture images containing the new object from different angles.
+- Capture images containing the new object from different angles. (See Example in E13)
 - Alternatively, use publicly available datasets.
 - Save images in `dataset/images/`.
 
@@ -140,7 +140,7 @@ aidrone = AIDrone()
 aidrone.Open("COM3")
 
 # Set up camera
-cap = cv2.VideoCapture(0)
+cap =  cv.VideoCapture("http://<your AIDrone IP>/?action=stream") 
 selected_object = None
 selected_bbox = None
 
