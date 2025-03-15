@@ -40,20 +40,116 @@ pip install -r requirements.txt
 ## **3. YOLO에 새로운 객체 추가하기**
 기본 YOLO 모델에 없는 객체를 추가로 학습하려면 다음 단계를 수행합니다.
 
-### **1. 새로운 데이터 수집**
-새로운 객체를 포함하는 이미지 데이터를 수집합니다. 
+## **2. Collecting Data**
+The first step is to gather images of the object you want YOLO to recognize.
 
-### **2. 데이터 라벨링**
-YOLO 포맷(`.txt`)으로 데이터 라벨링을 진행합니다. [Roboflow](https://roboflow.com/) 또는 LabelImg를 활용하면 쉽습니다.
+### **Step 1: Capture or Download Images**
+- Use your own camera to take pictures from different angles.
+- Find public datasets (e.g., [Google Open Images](https://storage.googleapis.com/openimages/web/index.html)).
+- Save images in a new folder, e.g., `dataset/images/`.
 
-### **3. YOLO 데이터셋 변환**
-라벨링된 데이터를 YOLO 형식(`train`, `val`, `test` 폴더)으로 변환합니다.
+### **Step 2: Resize Images**
+To ensure better training performance, resize images to a uniform size (e.g., 640x640 pixels):
+```python
+import cv2
+import os
 
-### **4. 모델 학습**
+dataset_path = "dataset/images/"
+output_path = "dataset/resized/"
+os.makedirs(output_path, exist_ok=True)
+
+for file in os.listdir(dataset_path):
+    img = cv2.imread(os.path.join(dataset_path, file))
+    img_resized = cv2.resize(img, (640, 640))
+    cv2.imwrite(os.path.join(output_path, file), img_resized)
+```
+
+---
+
+## **3. Labeling Data for YOLO**
+YOLO requires labeled data in a specific format (`.txt` files).
+
+### **Step 1: Install Labeling Tool**
+Use [LabelImg](https://github.com/heartexlabs/labelImg) to annotate images:
+```bash
+pip install labelImg
+labelImg
+```
+
+### **Step 2: Annotate Images**
+- Open `LabelImg`, select the image folder (`dataset/resized/`).
+- Label each object and save as YOLO format.
+- This will create `.txt` annotation files alongside images.
+
+---
+
+## **4. Preparing Data for Training**
+### **Step 1: Organize Data Folders**
+Create the following structure:
+```
+yolo_custom_dataset/
+  ├── images/
+  │   ├── train/   # Training images
+  │   ├── val/     # Validation images
+  ├── labels/
+  │   ├── train/   # Training labels
+  │   ├── val/     # Validation labels
+```
+Move `80%` of images to `train/` and `20%` to `val/`.
+
+### **Step 2: Create `custom_data.yaml`**
+```yaml
+train: /path_to_dataset/yolo_custom_dataset/images/train
+val: /path_to_dataset/yolo_custom_dataset/images/val
+nc: 1  # Number of classes
+names: ['custom_object']  # Name of your object
+```
+
+---
+
+## **5. Training the YOLO Model**
+Use the YOLOv5 training script with your custom dataset:
 ```bash
 python train.py --img 640 --batch 16 --epochs 50 --data custom_data.yaml --weights yolov5s.pt
 ```
-이후 학습된 모델(`custom_model.pt`)을 저장하고 불러와 사용합니다.
+- `--img 640`: Image size
+- `--batch 16`: Batch size (adjust based on RAM)
+- `--epochs 50`: Number of training iterations
+- `--data custom_data.yaml`: Path to dataset configuration
+- `--weights yolov5s.pt`: Pretrained model to start training from
+
+---
+
+## **6. Testing the Trained Model**
+After training, the model is saved in `runs/train/exp/weights/best.pt`.
+Test it on an image:
+```bash
+python detect.py --weights runs/train/exp/weights/best.pt --img 640 --conf 0.4 --source test.jpg
+```
+Test it on a video:
+```bash
+python detect.py --weights runs/train/exp/weights/best.pt --img 640 --conf 0.4 --source video.mp4
+```
+
+---
+
+## **7. Integrating the Model with YOLO**
+To use the trained model in a Python script:
+```python
+import torch
+import cv2
+import numpy as np
+
+# Load trained YOLO model
+model = torch.hub.load('ultralytics/yolov5', 'custom', path='runs/train/exp/weights/best.pt', source='local')
+
+# Load image
+detect_img = cv2.imread('test.jpg')
+results = model(detect_img)
+
+# Display results
+results.show()
+```
 
 ---
 
