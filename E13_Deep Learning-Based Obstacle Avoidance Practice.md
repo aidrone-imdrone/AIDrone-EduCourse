@@ -37,7 +37,7 @@ dataset_path = "./dataset"
 if not os.path.exists(dataset_path):
     os.makedirs(dataset_path)
 
-cap = cv2.VideoCapture(0)  # Use drone camera
+cap = cv.VideoCapture("http://<your AIDrone IP>/?action=stream")  # Use drone camera  EX:  cv.VideoCapture("http://192.168.1.12/?action=stream")  
 
 # Initialize the drone
 aidrone = AIDrone()
@@ -172,7 +172,7 @@ aidrone = AIDrone()
 aidrone.Open("COM3")
 
 # Set up camera
-cap = cv2.VideoCapture(0)
+cap =  cv.VideoCapture("http://<your AIDrone IP>/?action=stream") 
 
 while True:
     ret, frame = cap.read()
