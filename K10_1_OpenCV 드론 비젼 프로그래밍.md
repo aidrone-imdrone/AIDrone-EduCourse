@@ -1,4 +1,4 @@
-### 1. 기본 라이브러리 설치
+## 1. 기본 라이브러리 설치
 
 <br/>
 
@@ -7,7 +7,7 @@
 
 <br/>
 
-### 2. 스왑 사이즈를 2048로 변경
+## 2. 스왑 사이즈를 2048로 변경
 
 <br/>
 
@@ -30,7 +30,7 @@
 <br/>
        
 
-### 3. 간단하게 OpenCV 설치  for C++ and Python 
+## 3. 간단하게 OpenCV 설치  for C++ and Python 
 
      sudo apt install libopencv-dev
 
@@ -50,7 +50,7 @@
 
 <br/>
 
-### 4. 소스를 다운받아서 OpenCV 설치 (If using  C/C++ and Python )  : 추천하는 방법
+## 4. 소스를 다운받아서 OpenCV 설치 (If using  C/C++ and Python )  : 추천하는 방법
 
        git clone https://github.com/opencv/opencv.git
    
@@ -76,7 +76,7 @@
 
 <br/>
 
-### 5. Rasbperry Pi Zero 2w 에 MJPG-Streamer 설치 ( Bullseye OS Version)
+## 5. Rasbperry Pi Zero 2w 에 MJPG-Streamer 설치 ( Bullseye OS Version)
 
 <br/>
 
@@ -110,7 +110,7 @@
 
 <br/>
 
- # 6. Make Raspberry Pi automatically become MJPG STREAMER when it starts 
+## 6. Make Raspberry Pi automatically become MJPG STREAMER when it starts 
 
 #### Change  www's index.html to  stream_simple.html 
 
