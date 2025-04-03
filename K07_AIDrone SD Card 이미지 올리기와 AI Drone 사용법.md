@@ -4,7 +4,7 @@
 
 <br/>
 
-https://drive.google.com/file/d/1ibLG-2X8MOwmSodx6xZGig9wf8txTiWn/view?usp=drive_link
+https://drive.google.com/file/d/1DRKI5p5aN9yV2dPCYxIA4VfsG8u79gUN/view?usp=drive_link
 
 - **압축 파일을 다운로드 받은 후 압축을 푼다**
   
