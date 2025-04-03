@@ -47,7 +47,9 @@
 
 <br/><br/>
 
-위 예제의 결과인 Tensorflow Keras Model Download Link : https://drive.google.com/file/d/176WYku7cJY5hpOT9xwC2uys1dby9OCCH/view?usp=drive_link
+위 예제의 결과인 Tensorflow Keras Model Download Link 
+
+     https://drive.google.com/file/d/176WYku7cJY5hpOT9xwC2uys1dby9OCCH/view?usp=drive_link
 
 위 예제의 결과인 Tensorflow Lite Model Downlaod Link : 
 
