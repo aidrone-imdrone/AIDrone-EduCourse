@@ -33,7 +33,7 @@ https://drive.google.com/file/d/1DRKI5p5aN9yV2dPCYxIA4VfsG8u79gUN/view?usp=drive
 
 <br/>
 
-<img src ="https://github.com/user-attachments/assets/d948ce4b-4ca9-4279-864a-f977a10776cc" width="800">
+<img src ="https://github.com/user-attachments/assets/ab7c2235-c839-4656-a462-33cb18b86fae" width="600">
 
 <br/>
 
