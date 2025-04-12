@@ -39,8 +39,11 @@ https://drive.google.com/file/d/1DRKI5p5aN9yV2dPCYxIA4VfsG8u79gUN/view?usp=drive
 
 <img src="https://github.com/user-attachments/assets/3ebca0d9-c6a0-4b6b-81fe-485ef0137fe6" width="700">
 
-
 <br/><br/>
+
+-**After finished Image Upload, Put the SD card in Drone and Connect with Cable**
+
+<br/>
 
 ### 4) Connect your PC or laptop's Wi-Fi to AIDrone (Using CMD)
 
