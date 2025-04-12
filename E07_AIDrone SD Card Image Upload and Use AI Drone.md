@@ -37,7 +37,7 @@ https://drive.google.com/file/d/1DRKI5p5aN9yV2dPCYxIA4VfsG8u79gUN/view?usp=drive
 
 <br/>
 
-<img src="https://github.com/user-attachments/assets/8ef0861a-491e-4faf-959f-32154c948d87" width="900">
+<img src="https://github.com/user-attachments/assets/3ebca0d9-c6a0-4b6b-81fe-485ef0137fe6" width="900">
 
 <br/><br/>
 
