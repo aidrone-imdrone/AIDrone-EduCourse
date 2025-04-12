@@ -27,9 +27,13 @@ https://drive.google.com/file/d/1DRKI5p5aN9yV2dPCYxIA4VfsG8u79gUN/view?usp=drive
 
 <br/><br/>
 
-### 3)  Download Raspberry Pi Imager and upload it to the SD card.
+### 3)  Download Win32DiskImager and upload it to the SD card.
 
-         https://www.raspberrypi.com/software/
+        https://win32diskimager.org/
+
+<br/>
+
+<img src ="https://github.com/user-attachments/assets/d948ce4b-4ca9-4279-864a-f977a10776cc" width="800">
 
 <br/>
 
