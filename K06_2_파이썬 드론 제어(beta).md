@@ -203,3 +203,9 @@ ESC 키를 눌러 프로그램을 종료합니다.
 프레임 해상도: 프레임 크기를 320x240으로 줄이면 Raspberry Pi Zero 2W의 부담이 감소합니다.
 조명 조건: 템플릿과 실시간 영상의 조명 조건을 비슷하게 맞추면 매칭 정확도가 향상됩니다.
 임계값 조정: threshold=0.8을 낮추거나 높여 매칭 민감도를 조절하세요.
+
+### 고급 옵션: ORB 특징점 매칭
+템플릿 매칭은 조명이나 회전에 민감할 수 있습니다. 더 견고한 매칭을 원한다면 ORB(OpenCV의 특징점 검출기)를 사용할 수 있습니다.
+
+matched, loc = match_template(frame, template, threshold=0.8)
+  =>  matched, loc = match_orb(frame, template, threshold=0.8)
