@@ -208,4 +208,5 @@ ESC 키를 눌러 프로그램을 종료합니다.
 템플릿 매칭은 조명이나 회전에 민감할 수 있습니다. 더 견고한 매칭을 원한다면 ORB(OpenCV의 특징점 검출기)를 사용할 수 있습니다.
 
 matched, loc = match_template(frame, template, threshold=0.8)
+
   =>  matched, loc = match_orb(frame, template, threshold=0.8)
