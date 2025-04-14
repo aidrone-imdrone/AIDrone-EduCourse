@@ -1,4 +1,17 @@
-## 1. Object_detection.py
+## 1. 이미지 분류를 통한 객체 인식 예제 (Object_detection.py)
+
+### 목표
+드론의 카메라로 촬영한 영상에서 특정 객체(예: 빨간 공)를 인식하고, 객체가 감지되면 드론이 특정 동작(예: 고도 증가)을 수행하도록 합니다.
+
+### AI 개념
+컴퓨터 비전: 카메라 영상에서 객체를 인식.
+딥러닝: 사전 학습된 모델(MobileNet 등)을 사용해 객체를 분류.
+실시간 처리: 드론의 카메라 스트림에서 실시간으로 데이터를 처리.
+
+### 준비물
+Raspberry Pi Zero 2W에 설치된 Python, OpenCV, TensorFlow Lite.
+드론의 카메라 스트리밍 설정(첨부된 08_video.py 기반).
+사전 학습된 MobileNet SSD 모델(TensorFlow Lite 버전).
 
 ### 코드 설명
 드론 제어: 첨부된 02_altitude.py와 유사하게 드론을 이륙시키고, 고도를 조절합니다.
