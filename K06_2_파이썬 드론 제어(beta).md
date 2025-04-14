@@ -210,3 +210,77 @@ ESC 키를 눌러 프로그램을 종료합니다.
 matched, loc = match_template(frame, template, threshold=0.8)
 
   =>  matched, loc = match_orb(frame, template, threshold=0.8)
+
+
+## 5. 얼굴 추적 드론 (face_tracking_control.py)
+
+### 목표
+드론의 카메라로 사용자의 얼굴을 실시간으로 감지.
+얼굴의 위치(화면 내 x, y 좌표)를 분석해 드론의 동작을 제어:
+얼굴이 화면 중앙에서 좌우로 이동: 드론이 좌우로 이동하거나 회전.
+얼굴이 화면 중앙에서 상하로 이동: 드론이 고도를 조절.
+얼굴이 가까워지거나 멀어짐(크기 변화): 드론이 전진/후진.
+
+### AI 개념
+컴퓨터 비전: OpenCV를 사용한 얼굴 감지 및 위치 추적.
+실시간 제어: 얼굴의 상대적 위치를 기반으로 드론의 속도 및 방향 제어.
+피드백 루프: 얼굴 위치 데이터를 활용한 동적 드론 제어.
+
+### 구현 방식
+Raspberry Pi Zero 2W의 성능을 고려해 Haar Cascade 얼굴 감지기를 기본으로 사용합니다. Haar Cascade는 가볍고 초보자에게 이해하기 쉬우며, 교육용으로 적합합니다. 고급 옵션으로 DNN 기반 얼굴 감지기를 간단히 언급하겠습니다.
+
+### 준비물
+Raspberry Pi Zero 2W에 설치된 Python, OpenCV.
+드론의 카메라 스트리밍 설정(제공된 08_video.py 기반: http://192.168.4.1/?action=stream).
+pyaidrone 라이브러리.
+OpenCV의 Haar Cascade XML 파일(haarcascade_frontalface_default.xml).
+
+### 설치 요구사항
+OpenCV가 설치되어 있어야 합니다:
+
+### 코드 설명
+드론 제어: 제공된 pyaidrone 라이브러리를 사용해 이륙(takeoff), 착륙(landing), 고도 조절(altitude), 속도 제어(velocity)를 구현합니다. 기존 코드(02_altitude.py, 05_velocity.py)에서 사용된 명령을 기반으로 합니다.
+카메라 처리: 08_video.py의 스트리밍 설정(http://192.168.4.1/?action=stream)을 활용해 실시간 영상을 가져옵니다.
+얼굴 감지:
+OpenCV의 Haar Cascade(haarcascade_frontalface_default.xml)를 사용해 얼굴을 감지.
+가장 큰 얼굴을 선택해 위치(x, y)와 크기(w, h)를 추출.
+드론 동작:
+이륙: 얼굴이 처음 감지되면 드론이 이륙하고 고도 100cm를 설정.
+좌우 이동: 얼굴 중심(cx)이 화면 중앙에서 벗어나면 드론이 좌우로 이동(RIGHT 방향 속도 제어).
+고도 조절: 얼굴 중심(cy)이 화면 중앙에서 위/아래로 벗어나면 고도를 50~150cm 범위로 조절.
+전진/후진: 얼굴 크기(area)가 변화하면 전진/후진 속도를 조절(기준 면적 10000 기준).
+상태 관리: is_flying 플래그로 이륙/착륙 상태를 추적하며, 얼굴이 감지되지 않을 때는 드론을 정지.
+시각화: 감지된 얼굴에 녹색 사각형과 중심점을 표시하며, 상태 텍스트를 화면에 출력.
+종료 처리: 예외 발생 시 드론을 착륙시키고 리소스를 정리.
+
+### 제어 로직
+얼굴 움직임	드론 동작
+좌우 이동 (x_error)	좌우 이동 (RIGHT, ±50cm/s)
+상하 이동 (y_error)	고도 조절 (50~150cm)
+가까워짐/멀어짐 (area)	전진/후진 (FRONT, ±30cm/s)
+얼굴 없음	모든 이동 정지
+
+### 사용 방법
+OpenCV의 Haar Cascade XML 파일이 코드와 같은 디렉토리에 있거나, OpenCV 데이터 경로에서 로드되는지 확인.
+코드를 Raspberry Pi Zero 2W에 업로드하고 실행.
+드론과 카메라가 연결된 상태(COM3, http://192.168.4.1/?action=stream)에서 카메라 앞에 얼굴을 위치.
+얼굴을 좌우, 상하로 움직이거나 가까이/멀리 이동해 드론의 반응을 확인.
+ESC 키를 눌러 프로그램 종료.
+### 교육적 가치
+컴퓨터 비전: 학생들은 Haar Cascade를 통한 얼굴 감지 원리를 배우고, 실시간 영상 처리의 기초를 이해.
+피드백 제어: 얼굴 위치 데이터를 기반으로 드론의 동적 제어를 경험하며, 피드백 루프의 중요성 학습.
+창의성: 학생들이 제어 로직(예: 회전 추가)이나 감지 조건을 수정하며 실험 가능.
+### 성능 최적화 팁
+프레임 해상도: frame_width=320, frame_height=240으로 줄이면 성능 향상.
+감지 민감도: scaleFactor=1.2, minNeighbors=3으로 조정해 감지 속도와 정확도 균형 조절.
+조명 조건: 균일한 조명에서 얼굴 감지 정확도가 높아짐.
+임계값: x_error, y_error, area_diff의 임계값(50, 5000 등)을 조정해 제어 민감도 변경.
+
+### 고급 옵션: DNN 기반 얼굴 감지
+Haar Cascade는 조명이나 각도 변화에 민감할 수 있습니다. 더 정확한 감지를 원한다면 OpenCV의 DNN 모듈을 사용한 얼굴 감지기를 적용할 수 있습니다.
+DNN 모델 파일(deploy.prototxt, caffemodel)을 다운로드해 사용.
+
+wget https://raw.githubusercontent.com/opencv/opencv/master/samples/dnn/face_detector/deploy.prototxt
+
+wget https://raw.githubusercontent.com/opencv/opencv_3rdparty/ff8d3f3e7828ef4194d52f5dfb7a6fdf6bcdac06/opencv_face_detector/res10_300x300_ssd_iter_140000.caffemodel
+
