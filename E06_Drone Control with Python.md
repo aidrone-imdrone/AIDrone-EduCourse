@@ -46,31 +46,7 @@
 
 ## 3. Python Examples
 
-#### 1) each motor contorl for 2 seconds
-
-       from time import sleep
-       from pyaidrone.aiDrone import *
-       
-       if __name__ == '__main__':    
-       
-            aidrone = AIDrone()
-            aidrone.Open("COM3")
-            aidrone.setOption(0)
-            sleep(0.5)
-            
-            aidrone.motor(0, 10)
-            sleep(2)
-            aidrone.motor(1, 20)
-            sleep(2)
-            aidrone.motor(2, 20)
-            sleep(2)
-            aidrone.motor(3, 20)
-            sleep(2)
-            aidrone.Close()
-
-<br/>
-
-#### 2) move AIDrone a certain distance
+#### 1) move AIDrone a certain distance
 
        from time import sleep
        from pyaidrone.aiDrone import *
@@ -104,7 +80,7 @@
 
 <br/>
 
-#### 3) rotate AIDrone 
+#### 2) rotate AIDrone 
 
        from time import sleep
        from pyaidrone.aiDrone import *
@@ -138,7 +114,7 @@
 
 <br/>
 
- #### 4) up and down AIDrone 
+ #### 3) up and down AIDrone 
 
        from time import sleep
        from pyaidrone.aiDrone import *
@@ -174,7 +150,7 @@
 
 <br/>
 
- #### 5) flight's velocity change 
+ #### 4) flight's velocity change 
 
        from time import sleep
        from pyaidrone.aiDrone import *
@@ -212,7 +188,7 @@
 
 <br/>
 
- #### 6) RC AIDrone by direction keyboard 
+ #### 5) RC AIDrone by direction keyboard 
  
       from time import sleep
       from pyaidrone.aiDrone import *
@@ -273,7 +249,7 @@
 
 ## 4. Python Examples Download  
 
-https://drive.google.com/file/d/1PL83f4dKdujmGdwxJMsD6q8oGT_Q5fjM/view?usp=drive_link
+https://drive.google.com/file/d/1mfU4Bj8GvPiZbgU38dHEQquj-FGMWcO8/view?usp=drive_link
 
 <br/><br/>
 
