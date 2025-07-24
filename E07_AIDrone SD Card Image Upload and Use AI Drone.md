@@ -4,7 +4,7 @@
 
 <br/>
 
-https://buly.kr/EI427mt
+https://drive.google.com/file/d/13t_Jgh_LdqxwPGChRj9_d_Lb3PRx8HzM/view?usp=drive_link
 
 <br/>
 - **Download the file and extract the compressed archive**
