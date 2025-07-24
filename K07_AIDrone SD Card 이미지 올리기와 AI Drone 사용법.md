@@ -4,7 +4,7 @@
 
 <br/>
 
-https://buly.kr/EI427mt
+https://drive.google.com/file/d/13t_Jgh_LdqxwPGChRj9_d_Lb3PRx8HzM/view?usp=drive_link
 
 - **압축 파일을 다운로드 받은 후 압축을 푼다**
   
